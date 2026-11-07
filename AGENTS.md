@@ -22,11 +22,17 @@
 - **先本地写完整内容，再建 GitHub 仓库推送**，不要一上来就建远程仓库。
 - GitHub 账号：`makewheels`。
 
+## 数据与维护方式（重要）
+
+- **`vocab.json` 是唯一数据源**：所有词汇、专名、表格、发售信息都在这一份 JSON 里。
+- 改词汇：编辑 `vocab.json` → 运行 `python3 generate.py`，会**同时重新生成** `index.html`（网页版）和 `README.md`（GitHub 版），两者永远同步，不存在「改不过来」的问题。
+- `index.html`：网页版教材，带目录导航（侧栏）、**点击发音**（🔊，走有道 dictvoice 美音，需联网）、手机/电脑响应式、A4 可打印。
+- 核心词汇用「卡片」形式（含长例句，不适合塞表格）；专有名词用「表格」形式。
+
 ## 已完成
 
-- `README.md`：核心词汇约 110 个（音标+例句+中文）+ 专有名词速查（人物/地点/商店/品牌）+ 发售信息速查。
-- `index.html`：可打印版（A4 排版，浏览器打开直接 Ctrl+P 打印或另存为 PDF）。
-- `build_html.py`：从 README.md 生成 index.html 的脚本（改完 README 后运行 `python3 build_html.py` 重新生成）。
+- 核心词汇 111 个（音标+例句+中文，分 8 个板块）+ 专有名词 40 条（人物/地点/商店/品牌）+ 发售信息 + 本作关键设定。
+- 网页版上线：https://makewheels.github.io/gta6-english-learning/
 
 ## 以后可以怎么扩展
 
