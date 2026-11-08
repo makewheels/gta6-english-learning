@@ -99,6 +99,22 @@
 > You can skip the cutscene.
 > 过场动画可以跳过。
 
+**21. weapon wheel** /ˈwepən wiːl/（n.）武器轮盘
+> Open the weapon wheel to switch guns.
+> 打开武器轮盘切换武器。
+
+**22. loadout** /ˈloʊdaʊt/（n.）装备配置、随身携带的武器
+> Pick your loadout before the mission.
+> 任务前选好你的装备。
+
+**23. buff** /bʌf/（n.）增益、属性加成
+> Food gives you a temporary buff.
+> 食物给你临时的属性加成。
+
+**24. workout** /ˈwɜːrkaʊt/（n.）锻炼、健身
+> Do a workout to raise your strength.
+> 锻炼提升你的力量。
+
 ---
 
 ## 二、操作与按键（Controls & Buttons）
@@ -483,6 +499,22 @@
 > Pay the bail to get out of jail.
 > 交保释金出狱。
 
+**26. CCTV** /ˌsiː siː tiː ˈviː/（n.）监控摄像头（证据图标之一）
+> Destroy the CCTV footage to clear the evidence.
+> 销毁监控录像清除证据。
+
+**27. split up** /splɪt ʌp/（phr.）分开行动（两人同行图标）
+> Split up so the cops can't spot you two together.
+> 分开行动，警察就认不出你们俩了。
+
+**28. facial recognition** /ˈfeɪʃəl ˌrekəɡˈnɪʃən/（n.）面部识别
+> Wear a mask to beat facial recognition.
+> 戴面具躲过面部识别。
+
+**29. perimeter** /pəˈrɪmɪtər/（n.）警戒圈、封锁区
+> The cops set a perimeter around the block.
+> 警察在街区周围设了警戒圈。
+
 ---
 
 ## 五、交通与驾驶（Vehicles & Driving）
@@ -615,6 +647,10 @@
 > Peel out before the cops box us in.
 > 趁警察还没包抄，猛踩油门冲出去。
 
+**33. jetski** /ˈdʒetskiː/（n.）水上摩托
+> Rent a jetski at the beach.
+> 在海滩租辆水上摩托。
+
 ---
 
 ## 六、武器与战斗（Weapons & Combat）
@@ -719,6 +755,14 @@
 > Pull the parachute before you hit the ground.
 > 落地前拉开降落伞。
 
+**26. molotov** /ˈmɑːlətɑːf/（n.）燃烧瓶
+> Throw a molotov to torch the car.
+> 扔燃烧瓶烧掉那辆车。
+
+**27. slow motion** /sloʊ ˈmoʊʃən/（n.）慢动作（紫色条特殊能力）
+> Trigger slow motion to line up the shot.
+> 触发慢动作来瞄准。
+
 ---
 
 ## 七、商店与经济（Shops & Money）
@@ -786,6 +830,18 @@
 **16. unlock** /ʌnˈlɑːk/（v.）解锁
 > Reach level 10 to unlock this car.
 > 升到 10 级解锁这辆车。
+
+**17. duffel bag** /ˈdʌfəl bæɡ/（n.）行李袋（装赃物）
+> Stuff the loot into a duffel bag.
+> 把赃物塞进行李袋。
+
+**18. convenience store** /kənˈviːnjəns stɔːr/（n.）便利店
+> Rob the convenience store for quick cash.
+> 抢便利店快速搞钱。
+
+**19. tracker** /ˈtrækər/（n.）（车辆）追踪器
+> A fence can remove the tracker from a stolen car.
+> 销赃的能拆掉赃车上的追踪器。
 
 ---
 
@@ -1046,6 +1102,18 @@
 **14. jail** /dʒeɪl/（n.）监狱、拘留所
 > You'll end up in jail if caught.
 > 被抓你就得进监狱。
+
+**15. relationship** /rɪˈleɪʃənʃɪp/（n.）关系、感情（双主角好感度）
+> Hang out together to build your relationship.
+> 一起待着能增进感情。
+
+**16. open carry** /ˈoʊpən ˈkæri/（n.）公开持枪
+> Open carry draws attention from NPCs.
+> 公开持枪会引来路人注意。
+
+**17. criminal profile** /ˈkrɪmɪnəl ˈproʊfaɪl/（n.）犯罪档案（类似荣誉系统）
+> Your criminal profile changes with your actions.
+> 你的犯罪档案会随你的行为改变。
 
 ---
 

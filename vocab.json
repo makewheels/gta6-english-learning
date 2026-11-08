@@ -20,26 +20,198 @@
           "en": "HUD & UI",
           "kind": "words",
           "words": [
-            {"word":"HUD","ipa":"/hʌd/","pos":"n.","meaning":"游戏界面（血条、弹药、金钱等屏幕信息）","ex_en":"The HUD shows your health, ammo and money.","ex_zh":"界面显示你的生命值、弹药和钱。"},
-            {"word":"health","ipa":"/helθ/","pos":"n.","meaning":"生命值","ex_en":"Your health is low — find cover.","ex_zh":"你的生命值低了——快找掩体。"},
-            {"word":"armor","ipa":"/ˈɑːrmər/","pos":"n.","meaning":"防弹衣、护甲值","ex_en":"Put on armor before the shootout.","ex_zh":"枪战前先穿上防弹衣。"},
-            {"word":"stamina","ipa":"/ˈstæmɪnə/","pos":"n.","meaning":"体力、耐力（跑步游泳会消耗）","ex_en":"Sprinting drains your stamina.","ex_zh":"冲刺会消耗你的体力。"},
-            {"word":"money","ipa":"/ˈmʌni/","pos":"n.","meaning":"钱、金钱","ex_en":"You need money to buy weapons.","ex_zh":"买武器需要钱。"},
-            {"word":"cash","ipa":"/kæʃ/","pos":"n.","meaning":"现金","ex_en":"The heist earned them a lot of cash.","ex_zh":"这场劫案给他们赚了一大笔现金。"},
-            {"word":"score","ipa":"/skɔːr/","pos":"n.","meaning":"分数、得分","ex_en":"Finish the mission for a higher score.","ex_zh":"完成任务拿更高分数。"},
-            {"word":"timer","ipa":"/ˈtaɪmər/","pos":"n.","meaning":"倒计时","ex_en":"Beat the timer to finish the mission.","ex_zh":"在倒计时结束前完成任务。"},
-            {"word":"minimap","ipa":"/ˈmɪnimæp/","pos":"n.","meaning":"小地图","ex_en":"Follow the yellow line on the minimap.","ex_zh":"跟着小地图上的黄线走。"},
-            {"word":"radar","ipa":"/ˈreɪdɑːr/","pos":"n.","meaning":"雷达（小地图/探测）","ex_en":"Enemy blips show up on your radar.","ex_zh":"敌人的光点会出现在雷达上。"},
-            {"word":"compass","ipa":"/ˈkʌmpəs/","pos":"n.","meaning":"指南针","ex_en":"The compass at the top points north.","ex_zh":"顶部的指南针指向北方。"},
-            {"word":"waypoint","ipa":"/ˈweɪpɔɪnt/","pos":"n.","meaning":"导航点","ex_en":"Set a waypoint on the dock.","ex_zh":"在码头设个导航点。"},
-            {"word":"marker","ipa":"/ˈmɑːrkər/","pos":"n.","meaning":"标记、地点标记","ex_en":"The mission marker is downtown.","ex_zh":"任务标记在市中心。"},
-            {"word":"objective","ipa":"/əbˈdʒektɪv/","pos":"n.","meaning":"目标、任务目标","ex_en":"Your objective is to steal the boat.","ex_zh":"你的目标是偷那艘船。"},
-            {"word":"notification","ipa":"/ˌnoʊtɪfɪˈkeɪʃən/","pos":"n.","meaning":"通知、提示","ex_en":"A notification popped up on your phone.","ex_zh":"手机上弹出一条通知。"},
-            {"word":"prompt","ipa":"/prɑːmpt/","pos":"n.","meaning":"操作提示（屏幕上的按键提示）","ex_en":"Press the button when the prompt appears.","ex_zh":"提示一出现就按下那个按键。"},
-            {"word":"stats","ipa":"/stæts/","pos":"n.","meaning":"属性、数据（人物属性面板）","ex_en":"Check your stats in the pause menu.","ex_zh":"在暂停菜单里查看你的属性。"},
-            {"word":"checkpoint","ipa":"/ˈtʃekpɔɪnt/","pos":"n.","meaning":"检查点、存档点","ex_en":"You passed the checkpoint — progress saved.","ex_zh":"你过了检查点——进度已保存。"},
-            {"word":"subtitle","ipa":"/ˈsʌbtaɪtəl/","pos":"n.","meaning":"字幕","ex_en":"Turn on subtitles to read the dialogue.","ex_zh":"打开字幕就能看懂对白。"},
-            {"word":"cutscene","ipa":"/ˈkʌtsiːn/","pos":"n.","meaning":"过场动画","ex_en":"You can skip the cutscene.","ex_zh":"过场动画可以跳过。"}
+            {
+              "word": "HUD",
+              "ipa": "/hʌd/",
+              "pos": "n.",
+              "meaning": "游戏界面（血条、弹药、金钱等屏幕信息）",
+              "ex_en": "The HUD shows your health, ammo and money.",
+              "ex_zh": "界面显示你的生命值、弹药和钱。"
+            },
+            {
+              "word": "health",
+              "ipa": "/helθ/",
+              "pos": "n.",
+              "meaning": "生命值",
+              "ex_en": "Your health is low — find cover.",
+              "ex_zh": "你的生命值低了——快找掩体。"
+            },
+            {
+              "word": "armor",
+              "ipa": "/ˈɑːrmər/",
+              "pos": "n.",
+              "meaning": "防弹衣、护甲值",
+              "ex_en": "Put on armor before the shootout.",
+              "ex_zh": "枪战前先穿上防弹衣。"
+            },
+            {
+              "word": "stamina",
+              "ipa": "/ˈstæmɪnə/",
+              "pos": "n.",
+              "meaning": "体力、耐力（跑步游泳会消耗）",
+              "ex_en": "Sprinting drains your stamina.",
+              "ex_zh": "冲刺会消耗你的体力。"
+            },
+            {
+              "word": "money",
+              "ipa": "/ˈmʌni/",
+              "pos": "n.",
+              "meaning": "钱、金钱",
+              "ex_en": "You need money to buy weapons.",
+              "ex_zh": "买武器需要钱。"
+            },
+            {
+              "word": "cash",
+              "ipa": "/kæʃ/",
+              "pos": "n.",
+              "meaning": "现金",
+              "ex_en": "The heist earned them a lot of cash.",
+              "ex_zh": "这场劫案给他们赚了一大笔现金。"
+            },
+            {
+              "word": "score",
+              "ipa": "/skɔːr/",
+              "pos": "n.",
+              "meaning": "分数、得分",
+              "ex_en": "Finish the mission for a higher score.",
+              "ex_zh": "完成任务拿更高分数。"
+            },
+            {
+              "word": "timer",
+              "ipa": "/ˈtaɪmər/",
+              "pos": "n.",
+              "meaning": "倒计时",
+              "ex_en": "Beat the timer to finish the mission.",
+              "ex_zh": "在倒计时结束前完成任务。"
+            },
+            {
+              "word": "minimap",
+              "ipa": "/ˈmɪnimæp/",
+              "pos": "n.",
+              "meaning": "小地图",
+              "ex_en": "Follow the yellow line on the minimap.",
+              "ex_zh": "跟着小地图上的黄线走。"
+            },
+            {
+              "word": "radar",
+              "ipa": "/ˈreɪdɑːr/",
+              "pos": "n.",
+              "meaning": "雷达（小地图/探测）",
+              "ex_en": "Enemy blips show up on your radar.",
+              "ex_zh": "敌人的光点会出现在雷达上。"
+            },
+            {
+              "word": "compass",
+              "ipa": "/ˈkʌmpəs/",
+              "pos": "n.",
+              "meaning": "指南针",
+              "ex_en": "The compass at the top points north.",
+              "ex_zh": "顶部的指南针指向北方。"
+            },
+            {
+              "word": "waypoint",
+              "ipa": "/ˈweɪpɔɪnt/",
+              "pos": "n.",
+              "meaning": "导航点",
+              "ex_en": "Set a waypoint on the dock.",
+              "ex_zh": "在码头设个导航点。"
+            },
+            {
+              "word": "marker",
+              "ipa": "/ˈmɑːrkər/",
+              "pos": "n.",
+              "meaning": "标记、地点标记",
+              "ex_en": "The mission marker is downtown.",
+              "ex_zh": "任务标记在市中心。"
+            },
+            {
+              "word": "objective",
+              "ipa": "/əbˈdʒektɪv/",
+              "pos": "n.",
+              "meaning": "目标、任务目标",
+              "ex_en": "Your objective is to steal the boat.",
+              "ex_zh": "你的目标是偷那艘船。"
+            },
+            {
+              "word": "notification",
+              "ipa": "/ˌnoʊtɪfɪˈkeɪʃən/",
+              "pos": "n.",
+              "meaning": "通知、提示",
+              "ex_en": "A notification popped up on your phone.",
+              "ex_zh": "手机上弹出一条通知。"
+            },
+            {
+              "word": "prompt",
+              "ipa": "/prɑːmpt/",
+              "pos": "n.",
+              "meaning": "操作提示（屏幕上的按键提示）",
+              "ex_en": "Press the button when the prompt appears.",
+              "ex_zh": "提示一出现就按下那个按键。"
+            },
+            {
+              "word": "stats",
+              "ipa": "/stæts/",
+              "pos": "n.",
+              "meaning": "属性、数据（人物属性面板）",
+              "ex_en": "Check your stats in the pause menu.",
+              "ex_zh": "在暂停菜单里查看你的属性。"
+            },
+            {
+              "word": "checkpoint",
+              "ipa": "/ˈtʃekpɔɪnt/",
+              "pos": "n.",
+              "meaning": "检查点、存档点",
+              "ex_en": "You passed the checkpoint — progress saved.",
+              "ex_zh": "你过了检查点——进度已保存。"
+            },
+            {
+              "word": "subtitle",
+              "ipa": "/ˈsʌbtaɪtəl/",
+              "pos": "n.",
+              "meaning": "字幕",
+              "ex_en": "Turn on subtitles to read the dialogue.",
+              "ex_zh": "打开字幕就能看懂对白。"
+            },
+            {
+              "word": "cutscene",
+              "ipa": "/ˈkʌtsiːn/",
+              "pos": "n.",
+              "meaning": "过场动画",
+              "ex_en": "You can skip the cutscene.",
+              "ex_zh": "过场动画可以跳过。"
+            },
+            {
+              "word": "weapon wheel",
+              "ipa": "/ˈwepən wiːl/",
+              "pos": "n.",
+              "meaning": "武器轮盘",
+              "ex_en": "Open the weapon wheel to switch guns.",
+              "ex_zh": "打开武器轮盘切换武器。"
+            },
+            {
+              "word": "loadout",
+              "ipa": "/ˈloʊdaʊt/",
+              "pos": "n.",
+              "meaning": "装备配置、随身携带的武器",
+              "ex_en": "Pick your loadout before the mission.",
+              "ex_zh": "任务前选好你的装备。"
+            },
+            {
+              "word": "buff",
+              "ipa": "/bʌf/",
+              "pos": "n.",
+              "meaning": "增益、属性加成",
+              "ex_en": "Food gives you a temporary buff.",
+              "ex_zh": "食物给你临时的属性加成。"
+            },
+            {
+              "word": "workout",
+              "ipa": "/ˈwɜːrkaʊt/",
+              "pos": "n.",
+              "meaning": "锻炼、健身",
+              "ex_en": "Do a workout to raise your strength.",
+              "ex_zh": "锻炼提升你的力量。"
+            }
           ]
         },
         {
@@ -48,34 +220,230 @@
           "en": "Controls & Buttons",
           "kind": "words",
           "words": [
-            {"word":"press","ipa":"/pres/","pos":"v.","meaning":"按（键）","ex_en":"Press X to enter the vehicle.","ex_zh":"按 X 键上车。"},
-            {"word":"hold","ipa":"/hoʊld/","pos":"v.","meaning":"长按","ex_en":"Hold the button to aim down sights.","ex_zh":"长按按键瞄准。"},
-            {"word":"tap","ipa":"/tæp/","pos":"v.","meaning":"轻点、连点","ex_en":"Tap the button rapidly to sprint.","ex_zh":"快速连点按键冲刺。"},
-            {"word":"interact","ipa":"/ˌɪntərˈækt/","pos":"v.","meaning":"互动、操作","ex_en":"Interact with the door to open it.","ex_zh":"和门互动把它打开。"},
-            {"word":"enter","ipa":"/ˈentər/","pos":"v.","meaning":"进入、上车","ex_en":"Enter the car and start the engine.","ex_zh":"上车并发动引擎。"},
-            {"word":"exit","ipa":"/ˈeksɪt/","pos":"v.","meaning":"离开、下车","ex_en":"Exit the vehicle quietly.","ex_zh":"悄悄下车。"},
-            {"word":"talk","ipa":"/tɔːk/","pos":"v.","meaning":"对话、交谈","ex_en":"Talk to the stranger to start the mission.","ex_zh":"和那个陌生人对话开启任务。"},
-            {"word":"pick up","ipa":"/pɪk ʌp/","pos":"v.","meaning":"捡起、拾取","ex_en":"Pick up the dropped weapon.","ex_zh":"捡起掉落的武器。"},
-            {"word":"open","ipa":"/ˈoʊpən/","pos":"v.","meaning":"打开","ex_en":"Open the trunk to grab the gear.","ex_zh":"打开后备箱拿装备。"},
-            {"word":"climb","ipa":"/klaɪm/","pos":"v.","meaning":"攀爬","ex_en":"Climb over the fence to escape.","ex_zh":"翻过栅栏逃走。"},
-            {"word":"jump","ipa":"/dʒʌmp/","pos":"v.","meaning":"跳跃","ex_en":"Jump across the gap.","ex_zh":"跳过那个缺口。"},
-            {"word":"sprint","ipa":"/sprɪnt/","pos":"v.","meaning":"冲刺、快跑","ex_en":"Sprint to the getaway car.","ex_zh":"冲刺跑到逃跑的车那儿。"},
-            {"word":"crouch","ipa":"/kraʊtʃ/","pos":"v.","meaning":"蹲下","ex_en":"Crouch behind the wall to hide.","ex_zh":"蹲在墙后躲起来。"},
-            {"word":"aim","ipa":"/eɪm/","pos":"v.","meaning":"瞄准","ex_en":"Aim for the tires.","ex_zh":"瞄准轮胎打。"},
-            {"word":"fire","ipa":"/ˈfaɪər/","pos":"v.","meaning":"开火、射击","ex_en":"Don't fire until I give the signal.","ex_zh":"等我发信号再开火。"},
-            {"word":"reload","ipa":"/ˌriːˈloʊd/","pos":"v.","meaning":"换弹","ex_en":"Reload while they're reloading.","ex_zh":"趁他们换弹的时候换弹。"},
-            {"word":"switch","ipa":"/swɪtʃ/","pos":"v.","meaning":"切换（武器/角色）","ex_en":"Switch weapons before entering.","ex_zh":"进去前先切换武器。"},
-            {"word":"melee","ipa":"/ˈmeɪleɪ/","pos":"n.","meaning":"近战攻击","ex_en":"Use melee when they get too close.","ex_zh":"他们靠太近时用近战。"},
-            {"word":"punch","ipa":"/pʌntʃ/","pos":"v.","meaning":"拳击、出拳","ex_en":"Punch the guard to knock him out.","ex_zh":"一拳把守卫打晕。"},
-            {"word":"dodge","ipa":"/dɑːdʒ/","pos":"v.","meaning":"闪避、躲开","ex_en":"Dodge the attack and counter.","ex_zh":"躲开攻击再反击。"},
-            {"word":"accelerate","ipa":"/əkˈseləreɪt/","pos":"v.","meaning":"加速、踩油门","ex_en":"Accelerate to lose the cops.","ex_zh":"加速甩掉警察。"},
-            {"word":"brake","ipa":"/breɪk/","pos":"v.","meaning":"刹车","ex_en":"Brake hard before the turn.","ex_zh":"转弯前猛踩刹车。"},
-            {"word":"reverse","ipa":"/rɪˈvɜːrs/","pos":"v.","meaning":"倒车","ex_en":"Reverse out of the alley.","ex_zh":"倒车退出小巷。"},
-            {"word":"steer","ipa":"/stɪr/","pos":"v.","meaning":"转向、打方向盘","ex_en":"Steer sharply to avoid the traffic.","ex_zh":"急打方向避开车流。"},
-            {"word":"handbrake","ipa":"/ˈhændbreɪk/","pos":"n.","meaning":"手刹","ex_en":"Pull the handbrake to drift.","ex_zh":"拉手刹漂移。"},
-            {"word":"horn","ipa":"/hɔːrn/","pos":"n.","meaning":"喇叭","ex_en":"Honk the horn to get their attention.","ex_zh":"按喇叭引起他们注意。"},
-            {"word":"swim","ipa":"/swɪm/","pos":"v.","meaning":"游泳","ex_en":"Swim to the shore before you drown.","ex_zh":"在淹死前游到岸边。"},
-            {"word":"dive","ipa":"/daɪv/","pos":"v.","meaning":"潜水、下潜","ex_en":"Dive underwater to hide from the cops.","ex_zh":"潜到水下躲避警察。"}
+            {
+              "word": "press",
+              "ipa": "/pres/",
+              "pos": "v.",
+              "meaning": "按（键）",
+              "ex_en": "Press X to enter the vehicle.",
+              "ex_zh": "按 X 键上车。"
+            },
+            {
+              "word": "hold",
+              "ipa": "/hoʊld/",
+              "pos": "v.",
+              "meaning": "长按",
+              "ex_en": "Hold the button to aim down sights.",
+              "ex_zh": "长按按键瞄准。"
+            },
+            {
+              "word": "tap",
+              "ipa": "/tæp/",
+              "pos": "v.",
+              "meaning": "轻点、连点",
+              "ex_en": "Tap the button rapidly to sprint.",
+              "ex_zh": "快速连点按键冲刺。"
+            },
+            {
+              "word": "interact",
+              "ipa": "/ˌɪntərˈækt/",
+              "pos": "v.",
+              "meaning": "互动、操作",
+              "ex_en": "Interact with the door to open it.",
+              "ex_zh": "和门互动把它打开。"
+            },
+            {
+              "word": "enter",
+              "ipa": "/ˈentər/",
+              "pos": "v.",
+              "meaning": "进入、上车",
+              "ex_en": "Enter the car and start the engine.",
+              "ex_zh": "上车并发动引擎。"
+            },
+            {
+              "word": "exit",
+              "ipa": "/ˈeksɪt/",
+              "pos": "v.",
+              "meaning": "离开、下车",
+              "ex_en": "Exit the vehicle quietly.",
+              "ex_zh": "悄悄下车。"
+            },
+            {
+              "word": "talk",
+              "ipa": "/tɔːk/",
+              "pos": "v.",
+              "meaning": "对话、交谈",
+              "ex_en": "Talk to the stranger to start the mission.",
+              "ex_zh": "和那个陌生人对话开启任务。"
+            },
+            {
+              "word": "pick up",
+              "ipa": "/pɪk ʌp/",
+              "pos": "v.",
+              "meaning": "捡起、拾取",
+              "ex_en": "Pick up the dropped weapon.",
+              "ex_zh": "捡起掉落的武器。"
+            },
+            {
+              "word": "open",
+              "ipa": "/ˈoʊpən/",
+              "pos": "v.",
+              "meaning": "打开",
+              "ex_en": "Open the trunk to grab the gear.",
+              "ex_zh": "打开后备箱拿装备。"
+            },
+            {
+              "word": "climb",
+              "ipa": "/klaɪm/",
+              "pos": "v.",
+              "meaning": "攀爬",
+              "ex_en": "Climb over the fence to escape.",
+              "ex_zh": "翻过栅栏逃走。"
+            },
+            {
+              "word": "jump",
+              "ipa": "/dʒʌmp/",
+              "pos": "v.",
+              "meaning": "跳跃",
+              "ex_en": "Jump across the gap.",
+              "ex_zh": "跳过那个缺口。"
+            },
+            {
+              "word": "sprint",
+              "ipa": "/sprɪnt/",
+              "pos": "v.",
+              "meaning": "冲刺、快跑",
+              "ex_en": "Sprint to the getaway car.",
+              "ex_zh": "冲刺跑到逃跑的车那儿。"
+            },
+            {
+              "word": "crouch",
+              "ipa": "/kraʊtʃ/",
+              "pos": "v.",
+              "meaning": "蹲下",
+              "ex_en": "Crouch behind the wall to hide.",
+              "ex_zh": "蹲在墙后躲起来。"
+            },
+            {
+              "word": "aim",
+              "ipa": "/eɪm/",
+              "pos": "v.",
+              "meaning": "瞄准",
+              "ex_en": "Aim for the tires.",
+              "ex_zh": "瞄准轮胎打。"
+            },
+            {
+              "word": "fire",
+              "ipa": "/ˈfaɪər/",
+              "pos": "v.",
+              "meaning": "开火、射击",
+              "ex_en": "Don't fire until I give the signal.",
+              "ex_zh": "等我发信号再开火。"
+            },
+            {
+              "word": "reload",
+              "ipa": "/ˌriːˈloʊd/",
+              "pos": "v.",
+              "meaning": "换弹",
+              "ex_en": "Reload while they're reloading.",
+              "ex_zh": "趁他们换弹的时候换弹。"
+            },
+            {
+              "word": "switch",
+              "ipa": "/swɪtʃ/",
+              "pos": "v.",
+              "meaning": "切换（武器/角色）",
+              "ex_en": "Switch weapons before entering.",
+              "ex_zh": "进去前先切换武器。"
+            },
+            {
+              "word": "melee",
+              "ipa": "/ˈmeɪleɪ/",
+              "pos": "n.",
+              "meaning": "近战攻击",
+              "ex_en": "Use melee when they get too close.",
+              "ex_zh": "他们靠太近时用近战。"
+            },
+            {
+              "word": "punch",
+              "ipa": "/pʌntʃ/",
+              "pos": "v.",
+              "meaning": "拳击、出拳",
+              "ex_en": "Punch the guard to knock him out.",
+              "ex_zh": "一拳把守卫打晕。"
+            },
+            {
+              "word": "dodge",
+              "ipa": "/dɑːdʒ/",
+              "pos": "v.",
+              "meaning": "闪避、躲开",
+              "ex_en": "Dodge the attack and counter.",
+              "ex_zh": "躲开攻击再反击。"
+            },
+            {
+              "word": "accelerate",
+              "ipa": "/əkˈseləreɪt/",
+              "pos": "v.",
+              "meaning": "加速、踩油门",
+              "ex_en": "Accelerate to lose the cops.",
+              "ex_zh": "加速甩掉警察。"
+            },
+            {
+              "word": "brake",
+              "ipa": "/breɪk/",
+              "pos": "v.",
+              "meaning": "刹车",
+              "ex_en": "Brake hard before the turn.",
+              "ex_zh": "转弯前猛踩刹车。"
+            },
+            {
+              "word": "reverse",
+              "ipa": "/rɪˈvɜːrs/",
+              "pos": "v.",
+              "meaning": "倒车",
+              "ex_en": "Reverse out of the alley.",
+              "ex_zh": "倒车退出小巷。"
+            },
+            {
+              "word": "steer",
+              "ipa": "/stɪr/",
+              "pos": "v.",
+              "meaning": "转向、打方向盘",
+              "ex_en": "Steer sharply to avoid the traffic.",
+              "ex_zh": "急打方向避开车流。"
+            },
+            {
+              "word": "handbrake",
+              "ipa": "/ˈhændbreɪk/",
+              "pos": "n.",
+              "meaning": "手刹",
+              "ex_en": "Pull the handbrake to drift.",
+              "ex_zh": "拉手刹漂移。"
+            },
+            {
+              "word": "horn",
+              "ipa": "/hɔːrn/",
+              "pos": "n.",
+              "meaning": "喇叭",
+              "ex_en": "Honk the horn to get their attention.",
+              "ex_zh": "按喇叭引起他们注意。"
+            },
+            {
+              "word": "swim",
+              "ipa": "/swɪm/",
+              "pos": "v.",
+              "meaning": "游泳",
+              "ex_en": "Swim to the shore before you drown.",
+              "ex_zh": "在淹死前游到岸边。"
+            },
+            {
+              "word": "dive",
+              "ipa": "/daɪv/",
+              "pos": "v.",
+              "meaning": "潜水、下潜",
+              "ex_en": "Dive underwater to hide from the cops.",
+              "ex_zh": "潜到水下躲避警察。"
+            }
           ]
         },
         {
@@ -84,46 +452,326 @@
           "en": "Missions & Objectives",
           "kind": "words",
           "words": [
-            {"word":"mission","ipa":"/ˈmɪʃən/","pos":"n.","meaning":"任务","ex_en":"Your next mission is to steal a boat.","ex_zh":"你的下一个任务是偷一艘船。"},
-            {"word":"heist","ipa":"/haɪst/","pos":"n.","meaning":"抢劫大案","ex_en":"The crew spent weeks planning the heist.","ex_zh":"那伙人花了几周策划这场大劫案。"},
-            {"word":"setup","ipa":"/ˈsetʌp/","pos":"n.","meaning":"（劫案的）前期准备任务","ex_en":"Finish the setup missions before the heist.","ex_zh":"在大劫案之前完成准备任务。"},
-            {"word":"go to","ipa":"/ɡoʊ tuː/","pos":"phr.","meaning":"前往、去","ex_en":"Go to the marker on the map.","ex_zh":"前往地图上的标记点。"},
-            {"word":"follow","ipa":"/ˈfɑːloʊ/","pos":"v.","meaning":"跟随","ex_en":"Follow the target without being seen.","ex_zh":"悄悄跟随目标，别被发现。"},
-            {"word":"find","ipa":"/faɪnd/","pos":"v.","meaning":"找到","ex_en":"Find the stolen car in the garage.","ex_zh":"在车库里找到那辆被偷的车。"},
-            {"word":"collect","ipa":"/kəˈlekt/","pos":"v.","meaning":"收集、取","ex_en":"Collect the package and leave.","ex_zh":"取走包裹然后离开。"},
-            {"word":"deliver","ipa":"/dɪˈlɪvər/","pos":"v.","meaning":"送达、交付","ex_en":"Deliver the drugs to the buyer.","ex_zh":"把毒品交给买家。"},
-            {"word":"drop off","ipa":"/drɑːp ɔːf/","pos":"v.","meaning":"放下（人或货）","ex_en":"Drop off the money at the safehouse.","ex_zh":"把钱放到安全屋。"},
-            {"word":"return","ipa":"/rɪˈtɜːrn/","pos":"v.","meaning":"返回","ex_en":"Return the vehicle to the garage.","ex_zh":"把车开回车库。"},
-            {"word":"catch","ipa":"/kætʃ/","pos":"v.","meaning":"抓住、追上","ex_en":"Catch the runner before he escapes.","ex_zh":"在那个逃跑的人逃走前抓住他。"},
-            {"word":"kill","ipa":"/kɪl/","pos":"v.","meaning":"击杀","ex_en":"Kill the guards silently.","ex_zh":"悄悄干掉守卫。"},
-            {"word":"eliminate","ipa":"/ɪˈlɪmɪneɪt/","pos":"v.","meaning":"消灭、清除","ex_en":"Eliminate all the rival gang members.","ex_zh":"清除所有敌对帮派成员。"},
-            {"word":"destroy","ipa":"/dɪˈstrɔɪ/","pos":"v.","meaning":"摧毁","ex_en":"Destroy the evidence before the cops arrive.","ex_zh":"在警察赶到前摧毁证据。"},
-            {"word":"take out","ipa":"/teɪk aʊt/","pos":"v.","meaning":"干掉、解决","ex_en":"Take out the guard by the gate.","ex_zh":"干掉门口那个守卫。"},
-            {"word":"escape","ipa":"/ɪˈskeɪp/","pos":"v.","meaning":"逃脱、逃离","ex_en":"Escape the city before sunrise.","ex_zh":"在日出前逃出这座城市。"},
-            {"word":"survive","ipa":"/sərˈvaɪv/","pos":"v.","meaning":"生存、活下来","ex_en":"Survive the ambush.","ex_zh":"在伏击中活下来。"},
-            {"word":"protect","ipa":"/prəˈtekt/","pos":"v.","meaning":"保护","ex_en":"Protect Lucia while she drives.","ex_zh":"在露西亚开车时保护她。"},
-            {"word":"escort","ipa":"/ˈeskɔːrt/","pos":"v.","meaning":"护送","ex_en":"Escort the shipment to the port.","ex_zh":"护送这批货到港口。"},
-            {"word":"rescue","ipa":"/ˈreskjuː/","pos":"v.","meaning":"营救","ex_en":"Rescue the hostage from the warehouse.","ex_zh":"从仓库里救出人质。"},
-            {"word":"defend","ipa":"/dɪˈfend/","pos":"v.","meaning":"防守、守住","ex_en":"Defend the boatyard from the attackers.","ex_zh":"守住船坞，别让袭击者得逞。"},
-            {"word":"infiltrate","ipa":"/ˈɪnfɪltreɪt/","pos":"v.","meaning":"潜入、渗透","ex_en":"Infiltrate the mansion without alerting anyone.","ex_zh":"不惊动任何人地潜入豪宅。"},
-            {"word":"sneak","ipa":"/sniːk/","pos":"v.","meaning":"潜行、偷偷行动","ex_en":"Sneak past the sleeping guards.","ex_zh":"从睡着的守卫身边溜过去。"},
-            {"word":"avoid","ipa":"/əˈvɔɪd/","pos":"v.","meaning":"避免、避开","ex_en":"Avoid the police patrols on your way.","ex_zh":"路上避开警车巡逻。"},
-            {"word":"distract","ipa":"/dɪˈstrækt/","pos":"v.","meaning":"引开、分散注意力","ex_en":"Distract the guard while I pick the lock.","ex_zh":"我撬锁的时候你去引开守卫。"},
-            {"word":"lose the cops","ipa":"/luːz ðə kɑːps/","pos":"phr.","meaning":"甩掉警察","ex_en":"Drive into the alley to lose the cops.","ex_zh":"开进小巷甩掉警察。"},
-            {"word":"hide","ipa":"/haɪd/","pos":"v.","meaning":"躲藏","ex_en":"Hide behind the crates until they leave.","ex_zh":"躲在箱子后直到他们离开。"},
-            {"word":"lay low","ipa":"/leɪ loʊ/","pos":"phr.","meaning":"低调、躲风头","ex_en":"Lay low for a few days until the heat dies down.","ex_zh":"低调躲几天，等风声过去。"},
-            {"word":"mission passed","ipa":"/ˈmɪʃən pæst/","pos":"phr.","meaning":"任务通过","ex_en":"Mission passed — here's your reward.","ex_zh":"任务通过——这是你的奖励。"},
-            {"word":"mission failed","ipa":"/ˈmɪʃən feɪld/","pos":"phr.","meaning":"任务失败","ex_en":"Mission failed — retry?","ex_zh":"任务失败——要重试吗？"},
-            {"word":"retry","ipa":"/ˌriːˈtraɪ/","pos":"v.","meaning":"重试","ex_en":"Press R to retry the mission.","ex_zh":"按 R 键重试任务。"},
-            {"word":"restart","ipa":"/ˌriːˈstɑːrt/","pos":"v.","meaning":"重新开始","ex_en":"Restart from the last checkpoint.","ex_zh":"从上一个检查点重新开始。"},
-            {"word":"continue","ipa":"/kənˈtɪnjuː/","pos":"v.","meaning":"继续","ex_en":"Continue to the next objective.","ex_zh":"继续前往下一个目标。"},
-            {"word":"skip","ipa":"/skɪp/","pos":"v.","meaning":"跳过","ex_en":"Press circle to skip the cutscene.","ex_zh":"按圆圈键跳过过场动画。"},
-            {"word":"confirm","ipa":"/kənˈfɜːrm/","pos":"v.","meaning":"确认","ex_en":"Confirm your selection to continue.","ex_zh":"确认你的选择以继续。"},
-            {"word":"cancel","ipa":"/ˈkænsəl/","pos":"v.","meaning":"取消","ex_en":"Cancel the mission if you're not ready.","ex_zh":"没准备好就取消任务。"},
-            {"word":"accept","ipa":"/əkˈsept/","pos":"v.","meaning":"接受（任务/交易）","ex_en":"Accept the job from Brian.","ex_zh":"接下布莱恩的活儿。"},
-            {"word":"decline","ipa":"/dɪˈklaɪn/","pos":"v.","meaning":"拒绝","ex_en":"Decline the offer and walk away.","ex_zh":"拒绝提议然后走开。"},
-            {"word":"crew","ipa":"/kruː/","pos":"n.","meaning":"团伙、同伙","ex_en":"He hand-picked his crew for the job.","ex_zh":"他亲自为这活儿挑选同伙。"},
-            {"word":"contact","ipa":"/ˈkɑːntækt/","pos":"n.","meaning":"线人、接头人","ex_en":"Our contact said the shipment arrives at midnight.","ex_zh":"线人说货半夜到。"}
+            {
+              "word": "mission",
+              "ipa": "/ˈmɪʃən/",
+              "pos": "n.",
+              "meaning": "任务",
+              "ex_en": "Your next mission is to steal a boat.",
+              "ex_zh": "你的下一个任务是偷一艘船。"
+            },
+            {
+              "word": "heist",
+              "ipa": "/haɪst/",
+              "pos": "n.",
+              "meaning": "抢劫大案",
+              "ex_en": "The crew spent weeks planning the heist.",
+              "ex_zh": "那伙人花了几周策划这场大劫案。"
+            },
+            {
+              "word": "setup",
+              "ipa": "/ˈsetʌp/",
+              "pos": "n.",
+              "meaning": "（劫案的）前期准备任务",
+              "ex_en": "Finish the setup missions before the heist.",
+              "ex_zh": "在大劫案之前完成准备任务。"
+            },
+            {
+              "word": "go to",
+              "ipa": "/ɡoʊ tuː/",
+              "pos": "phr.",
+              "meaning": "前往、去",
+              "ex_en": "Go to the marker on the map.",
+              "ex_zh": "前往地图上的标记点。"
+            },
+            {
+              "word": "follow",
+              "ipa": "/ˈfɑːloʊ/",
+              "pos": "v.",
+              "meaning": "跟随",
+              "ex_en": "Follow the target without being seen.",
+              "ex_zh": "悄悄跟随目标，别被发现。"
+            },
+            {
+              "word": "find",
+              "ipa": "/faɪnd/",
+              "pos": "v.",
+              "meaning": "找到",
+              "ex_en": "Find the stolen car in the garage.",
+              "ex_zh": "在车库里找到那辆被偷的车。"
+            },
+            {
+              "word": "collect",
+              "ipa": "/kəˈlekt/",
+              "pos": "v.",
+              "meaning": "收集、取",
+              "ex_en": "Collect the package and leave.",
+              "ex_zh": "取走包裹然后离开。"
+            },
+            {
+              "word": "deliver",
+              "ipa": "/dɪˈlɪvər/",
+              "pos": "v.",
+              "meaning": "送达、交付",
+              "ex_en": "Deliver the drugs to the buyer.",
+              "ex_zh": "把毒品交给买家。"
+            },
+            {
+              "word": "drop off",
+              "ipa": "/drɑːp ɔːf/",
+              "pos": "v.",
+              "meaning": "放下（人或货）",
+              "ex_en": "Drop off the money at the safehouse.",
+              "ex_zh": "把钱放到安全屋。"
+            },
+            {
+              "word": "return",
+              "ipa": "/rɪˈtɜːrn/",
+              "pos": "v.",
+              "meaning": "返回",
+              "ex_en": "Return the vehicle to the garage.",
+              "ex_zh": "把车开回车库。"
+            },
+            {
+              "word": "catch",
+              "ipa": "/kætʃ/",
+              "pos": "v.",
+              "meaning": "抓住、追上",
+              "ex_en": "Catch the runner before he escapes.",
+              "ex_zh": "在那个逃跑的人逃走前抓住他。"
+            },
+            {
+              "word": "kill",
+              "ipa": "/kɪl/",
+              "pos": "v.",
+              "meaning": "击杀",
+              "ex_en": "Kill the guards silently.",
+              "ex_zh": "悄悄干掉守卫。"
+            },
+            {
+              "word": "eliminate",
+              "ipa": "/ɪˈlɪmɪneɪt/",
+              "pos": "v.",
+              "meaning": "消灭、清除",
+              "ex_en": "Eliminate all the rival gang members.",
+              "ex_zh": "清除所有敌对帮派成员。"
+            },
+            {
+              "word": "destroy",
+              "ipa": "/dɪˈstrɔɪ/",
+              "pos": "v.",
+              "meaning": "摧毁",
+              "ex_en": "Destroy the evidence before the cops arrive.",
+              "ex_zh": "在警察赶到前摧毁证据。"
+            },
+            {
+              "word": "take out",
+              "ipa": "/teɪk aʊt/",
+              "pos": "v.",
+              "meaning": "干掉、解决",
+              "ex_en": "Take out the guard by the gate.",
+              "ex_zh": "干掉门口那个守卫。"
+            },
+            {
+              "word": "escape",
+              "ipa": "/ɪˈskeɪp/",
+              "pos": "v.",
+              "meaning": "逃脱、逃离",
+              "ex_en": "Escape the city before sunrise.",
+              "ex_zh": "在日出前逃出这座城市。"
+            },
+            {
+              "word": "survive",
+              "ipa": "/sərˈvaɪv/",
+              "pos": "v.",
+              "meaning": "生存、活下来",
+              "ex_en": "Survive the ambush.",
+              "ex_zh": "在伏击中活下来。"
+            },
+            {
+              "word": "protect",
+              "ipa": "/prəˈtekt/",
+              "pos": "v.",
+              "meaning": "保护",
+              "ex_en": "Protect Lucia while she drives.",
+              "ex_zh": "在露西亚开车时保护她。"
+            },
+            {
+              "word": "escort",
+              "ipa": "/ˈeskɔːrt/",
+              "pos": "v.",
+              "meaning": "护送",
+              "ex_en": "Escort the shipment to the port.",
+              "ex_zh": "护送这批货到港口。"
+            },
+            {
+              "word": "rescue",
+              "ipa": "/ˈreskjuː/",
+              "pos": "v.",
+              "meaning": "营救",
+              "ex_en": "Rescue the hostage from the warehouse.",
+              "ex_zh": "从仓库里救出人质。"
+            },
+            {
+              "word": "defend",
+              "ipa": "/dɪˈfend/",
+              "pos": "v.",
+              "meaning": "防守、守住",
+              "ex_en": "Defend the boatyard from the attackers.",
+              "ex_zh": "守住船坞，别让袭击者得逞。"
+            },
+            {
+              "word": "infiltrate",
+              "ipa": "/ˈɪnfɪltreɪt/",
+              "pos": "v.",
+              "meaning": "潜入、渗透",
+              "ex_en": "Infiltrate the mansion without alerting anyone.",
+              "ex_zh": "不惊动任何人地潜入豪宅。"
+            },
+            {
+              "word": "sneak",
+              "ipa": "/sniːk/",
+              "pos": "v.",
+              "meaning": "潜行、偷偷行动",
+              "ex_en": "Sneak past the sleeping guards.",
+              "ex_zh": "从睡着的守卫身边溜过去。"
+            },
+            {
+              "word": "avoid",
+              "ipa": "/əˈvɔɪd/",
+              "pos": "v.",
+              "meaning": "避免、避开",
+              "ex_en": "Avoid the police patrols on your way.",
+              "ex_zh": "路上避开警车巡逻。"
+            },
+            {
+              "word": "distract",
+              "ipa": "/dɪˈstrækt/",
+              "pos": "v.",
+              "meaning": "引开、分散注意力",
+              "ex_en": "Distract the guard while I pick the lock.",
+              "ex_zh": "我撬锁的时候你去引开守卫。"
+            },
+            {
+              "word": "lose the cops",
+              "ipa": "/luːz ðə kɑːps/",
+              "pos": "phr.",
+              "meaning": "甩掉警察",
+              "ex_en": "Drive into the alley to lose the cops.",
+              "ex_zh": "开进小巷甩掉警察。"
+            },
+            {
+              "word": "hide",
+              "ipa": "/haɪd/",
+              "pos": "v.",
+              "meaning": "躲藏",
+              "ex_en": "Hide behind the crates until they leave.",
+              "ex_zh": "躲在箱子后直到他们离开。"
+            },
+            {
+              "word": "lay low",
+              "ipa": "/leɪ loʊ/",
+              "pos": "phr.",
+              "meaning": "低调、躲风头",
+              "ex_en": "Lay low for a few days until the heat dies down.",
+              "ex_zh": "低调躲几天，等风声过去。"
+            },
+            {
+              "word": "mission passed",
+              "ipa": "/ˈmɪʃən pæst/",
+              "pos": "phr.",
+              "meaning": "任务通过",
+              "ex_en": "Mission passed — here's your reward.",
+              "ex_zh": "任务通过——这是你的奖励。"
+            },
+            {
+              "word": "mission failed",
+              "ipa": "/ˈmɪʃən feɪld/",
+              "pos": "phr.",
+              "meaning": "任务失败",
+              "ex_en": "Mission failed — retry?",
+              "ex_zh": "任务失败——要重试吗？"
+            },
+            {
+              "word": "retry",
+              "ipa": "/ˌriːˈtraɪ/",
+              "pos": "v.",
+              "meaning": "重试",
+              "ex_en": "Press R to retry the mission.",
+              "ex_zh": "按 R 键重试任务。"
+            },
+            {
+              "word": "restart",
+              "ipa": "/ˌriːˈstɑːrt/",
+              "pos": "v.",
+              "meaning": "重新开始",
+              "ex_en": "Restart from the last checkpoint.",
+              "ex_zh": "从上一个检查点重新开始。"
+            },
+            {
+              "word": "continue",
+              "ipa": "/kənˈtɪnjuː/",
+              "pos": "v.",
+              "meaning": "继续",
+              "ex_en": "Continue to the next objective.",
+              "ex_zh": "继续前往下一个目标。"
+            },
+            {
+              "word": "skip",
+              "ipa": "/skɪp/",
+              "pos": "v.",
+              "meaning": "跳过",
+              "ex_en": "Press circle to skip the cutscene.",
+              "ex_zh": "按圆圈键跳过过场动画。"
+            },
+            {
+              "word": "confirm",
+              "ipa": "/kənˈfɜːrm/",
+              "pos": "v.",
+              "meaning": "确认",
+              "ex_en": "Confirm your selection to continue.",
+              "ex_zh": "确认你的选择以继续。"
+            },
+            {
+              "word": "cancel",
+              "ipa": "/ˈkænsəl/",
+              "pos": "v.",
+              "meaning": "取消",
+              "ex_en": "Cancel the mission if you're not ready.",
+              "ex_zh": "没准备好就取消任务。"
+            },
+            {
+              "word": "accept",
+              "ipa": "/əkˈsept/",
+              "pos": "v.",
+              "meaning": "接受（任务/交易）",
+              "ex_en": "Accept the job from Brian.",
+              "ex_zh": "接下布莱恩的活儿。"
+            },
+            {
+              "word": "decline",
+              "ipa": "/dɪˈklaɪn/",
+              "pos": "v.",
+              "meaning": "拒绝",
+              "ex_en": "Decline the offer and walk away.",
+              "ex_zh": "拒绝提议然后走开。"
+            },
+            {
+              "word": "crew",
+              "ipa": "/kruː/",
+              "pos": "n.",
+              "meaning": "团伙、同伙",
+              "ex_en": "He hand-picked his crew for the job.",
+              "ex_zh": "他亲自为这活儿挑选同伙。"
+            },
+            {
+              "word": "contact",
+              "ipa": "/ˈkɑːntækt/",
+              "pos": "n.",
+              "meaning": "线人、接头人",
+              "ex_en": "Our contact said the shipment arrives at midnight.",
+              "ex_zh": "线人说货半夜到。"
+            }
           ]
         },
         {
@@ -132,31 +780,238 @@
           "en": "Wanted & Police",
           "kind": "words",
           "words": [
-            {"word":"wanted level","ipa":"/ˈwɑːntɪd ˌlevəl/","pos":"n.","meaning":"通缉等级","ex_en":"Your wanted level goes up when witnesses call the cops.","ex_zh":"目击者一报警，你的通缉等级就涨。"},
-            {"word":"six-star","ipa":"/ˌsɪks ˈstɑːr/","pos":"adj.","meaning":"六星（最高通缉）","ex_en":"Hit six stars and the whole city comes for you.","ex_zh":"到了六星通缉，全城都会来抓你。"},
-            {"word":"heat","ipa":"/hiːt/","pos":"n.","meaning":"风声、追捕（俚）","ex_en":"There's too much heat downtown right now.","ex_zh":"现在市区风声太紧。"},
-            {"word":"witness","ipa":"/ˈwɪtnəs/","pos":"n.","meaning":"目击者","ex_en":"Knock out the witness before he calls the cops.","ex_zh":"在他报警之前放倒那个目击者。"},
-            {"word":"evidence","ipa":"/ˈevɪdəns/","pos":"n.","meaning":"证据","ex_en":"Burn the car to destroy the evidence.","ex_zh":"烧掉车来销毁证据。"},
-            {"word":"suspect","ipa":"/ˈsʌspekt/","pos":"n.","meaning":"嫌疑人","ex_en":"The cops know your face — you're a suspect now.","ex_zh":"警察认得你的脸——你现在是嫌疑人了。"},
-            {"word":"disguise","ipa":"/dɪsˈɡaɪz/","pos":"n.","meaning":"伪装、乔装","ex_en":"Change your outfit to disguise yourself.","ex_zh":"换身衣服伪装一下自己。"},
-            {"word":"ditch","ipa":"/dɪtʃ/","pos":"v.","meaning":"抛弃（车辆）","ex_en":"Ditch the getaway car in the swamp.","ex_zh":"把逃跑的车丢进沼泽。"},
-            {"word":"torch","ipa":"/tɔːrtʃ/","pos":"v.","meaning":"烧掉（毁证）","ex_en":"Torch the vehicle so they can't trace it.","ex_zh":"烧掉那辆车，让他们查不到。"},
-            {"word":"patrol","ipa":"/pəˈtroʊl/","pos":"n.","meaning":"巡逻、巡逻队","ex_en":"A patrol car just turned onto our street.","ex_zh":"一辆巡逻车刚拐进我们这条街。"},
-            {"word":"warrant","ipa":"/ˈwɔːrənt/","pos":"n.","meaning":"逮捕令","ex_en":"There's a warrant out for your arrest.","ex_zh":"现在有张逮捕令是针对你的。"},
-            {"word":"chase","ipa":"/tʃeɪs/","pos":"n.","meaning":"追捕、追逐","ex_en":"We lost the cops in the chase.","ex_zh":"我们在追捕中甩掉了警察。"},
-            {"word":"lockdown","ipa":"/ˈlɑːkdaʊn/","pos":"n.","meaning":"封锁","ex_en":"The bridge is under lockdown.","ex_zh":"那座桥被封锁了。"},
-            {"word":"crime","ipa":"/kraɪm/","pos":"n.","meaning":"犯罪","ex_en":"Leaving witnesses behind makes the crime worse.","ex_zh":"留下目击者会让罪更重。"},
-            {"word":"report","ipa":"/rɪˈpɔːrt/","pos":"v.","meaning":"报案、举报","ex_en":"A witness reported your car to the police.","ex_zh":"有目击者向警方举报了你的车。"},
-            {"word":"dispatch","ipa":"/dɪˈspætʃ/","pos":"v.","meaning":"出警、派遣","ex_en":"The police dispatched units to your location.","ex_zh":"警方派警力到你所在的位置。"},
-            {"word":"siren","ipa":"/ˈsaɪrən/","pos":"n.","meaning":"警笛","ex_en":"I hear sirens — the cops are close.","ex_zh":"我听到警笛声——警察近了。"},
-            {"word":"roadblock","ipa":"/ˈroʊdblɑːk/","pos":"n.","meaning":"路障","ex_en":"There's a roadblock ahead — turn around.","ex_zh":"前面有路障——掉头。"},
-            {"word":"spike strip","ipa":"/spaɪk strɪp/","pos":"n.","meaning":"破胎钉（扎胎路障）","ex_en":"Don't drive over the spike strip.","ex_zh":"别碾过破胎钉。"},
-            {"word":"helicopter","ipa":"/ˈhelɪkɑːptər/","pos":"n.","meaning":"直升机","ex_en":"A police helicopter is following you.","ex_zh":"一架警用直升机在跟着你。"},
-            {"word":"SWAT","ipa":"/swɑːt/","pos":"n.","meaning":"特警队","ex_en":"At high wanted levels, SWAT shows up.","ex_zh":"通缉等级高时，特警会出动。"},
-            {"word":"surrender","ipa":"/səˈrendər/","pos":"v.","meaning":"投降","ex_en":"Drop your weapon and surrender.","ex_zh":"放下武器投降。"},
-            {"word":"arrest","ipa":"/əˈrest/","pos":"v.","meaning":"逮捕","ex_en":"The cops will arrest you if they catch you.","ex_zh":"被警察抓到就会被逮捕。"},
-            {"word":"busted","ipa":"/ˈbʌstɪd/","pos":"adj.","meaning":"被抓、被捕（游戏失败提示）","ex_en":"You got busted — try again.","ex_zh":"你被抓了——再试一次。"},
-            {"word":"bail","ipa":"/beɪl/","pos":"n.","meaning":"保释金","ex_en":"Pay the bail to get out of jail.","ex_zh":"交保释金出狱。"}
+            {
+              "word": "wanted level",
+              "ipa": "/ˈwɑːntɪd ˌlevəl/",
+              "pos": "n.",
+              "meaning": "通缉等级",
+              "ex_en": "Your wanted level goes up when witnesses call the cops.",
+              "ex_zh": "目击者一报警，你的通缉等级就涨。"
+            },
+            {
+              "word": "six-star",
+              "ipa": "/ˌsɪks ˈstɑːr/",
+              "pos": "adj.",
+              "meaning": "六星（最高通缉）",
+              "ex_en": "Hit six stars and the whole city comes for you.",
+              "ex_zh": "到了六星通缉，全城都会来抓你。"
+            },
+            {
+              "word": "heat",
+              "ipa": "/hiːt/",
+              "pos": "n.",
+              "meaning": "风声、追捕（俚）",
+              "ex_en": "There's too much heat downtown right now.",
+              "ex_zh": "现在市区风声太紧。"
+            },
+            {
+              "word": "witness",
+              "ipa": "/ˈwɪtnəs/",
+              "pos": "n.",
+              "meaning": "目击者",
+              "ex_en": "Knock out the witness before he calls the cops.",
+              "ex_zh": "在他报警之前放倒那个目击者。"
+            },
+            {
+              "word": "evidence",
+              "ipa": "/ˈevɪdəns/",
+              "pos": "n.",
+              "meaning": "证据",
+              "ex_en": "Burn the car to destroy the evidence.",
+              "ex_zh": "烧掉车来销毁证据。"
+            },
+            {
+              "word": "suspect",
+              "ipa": "/ˈsʌspekt/",
+              "pos": "n.",
+              "meaning": "嫌疑人",
+              "ex_en": "The cops know your face — you're a suspect now.",
+              "ex_zh": "警察认得你的脸——你现在是嫌疑人了。"
+            },
+            {
+              "word": "disguise",
+              "ipa": "/dɪsˈɡaɪz/",
+              "pos": "n.",
+              "meaning": "伪装、乔装",
+              "ex_en": "Change your outfit to disguise yourself.",
+              "ex_zh": "换身衣服伪装一下自己。"
+            },
+            {
+              "word": "ditch",
+              "ipa": "/dɪtʃ/",
+              "pos": "v.",
+              "meaning": "抛弃（车辆）",
+              "ex_en": "Ditch the getaway car in the swamp.",
+              "ex_zh": "把逃跑的车丢进沼泽。"
+            },
+            {
+              "word": "torch",
+              "ipa": "/tɔːrtʃ/",
+              "pos": "v.",
+              "meaning": "烧掉（毁证）",
+              "ex_en": "Torch the vehicle so they can't trace it.",
+              "ex_zh": "烧掉那辆车，让他们查不到。"
+            },
+            {
+              "word": "patrol",
+              "ipa": "/pəˈtroʊl/",
+              "pos": "n.",
+              "meaning": "巡逻、巡逻队",
+              "ex_en": "A patrol car just turned onto our street.",
+              "ex_zh": "一辆巡逻车刚拐进我们这条街。"
+            },
+            {
+              "word": "warrant",
+              "ipa": "/ˈwɔːrənt/",
+              "pos": "n.",
+              "meaning": "逮捕令",
+              "ex_en": "There's a warrant out for your arrest.",
+              "ex_zh": "现在有张逮捕令是针对你的。"
+            },
+            {
+              "word": "chase",
+              "ipa": "/tʃeɪs/",
+              "pos": "n.",
+              "meaning": "追捕、追逐",
+              "ex_en": "We lost the cops in the chase.",
+              "ex_zh": "我们在追捕中甩掉了警察。"
+            },
+            {
+              "word": "lockdown",
+              "ipa": "/ˈlɑːkdaʊn/",
+              "pos": "n.",
+              "meaning": "封锁",
+              "ex_en": "The bridge is under lockdown.",
+              "ex_zh": "那座桥被封锁了。"
+            },
+            {
+              "word": "crime",
+              "ipa": "/kraɪm/",
+              "pos": "n.",
+              "meaning": "犯罪",
+              "ex_en": "Leaving witnesses behind makes the crime worse.",
+              "ex_zh": "留下目击者会让罪更重。"
+            },
+            {
+              "word": "report",
+              "ipa": "/rɪˈpɔːrt/",
+              "pos": "v.",
+              "meaning": "报案、举报",
+              "ex_en": "A witness reported your car to the police.",
+              "ex_zh": "有目击者向警方举报了你的车。"
+            },
+            {
+              "word": "dispatch",
+              "ipa": "/dɪˈspætʃ/",
+              "pos": "v.",
+              "meaning": "出警、派遣",
+              "ex_en": "The police dispatched units to your location.",
+              "ex_zh": "警方派警力到你所在的位置。"
+            },
+            {
+              "word": "siren",
+              "ipa": "/ˈsaɪrən/",
+              "pos": "n.",
+              "meaning": "警笛",
+              "ex_en": "I hear sirens — the cops are close.",
+              "ex_zh": "我听到警笛声——警察近了。"
+            },
+            {
+              "word": "roadblock",
+              "ipa": "/ˈroʊdblɑːk/",
+              "pos": "n.",
+              "meaning": "路障",
+              "ex_en": "There's a roadblock ahead — turn around.",
+              "ex_zh": "前面有路障——掉头。"
+            },
+            {
+              "word": "spike strip",
+              "ipa": "/spaɪk strɪp/",
+              "pos": "n.",
+              "meaning": "破胎钉（扎胎路障）",
+              "ex_en": "Don't drive over the spike strip.",
+              "ex_zh": "别碾过破胎钉。"
+            },
+            {
+              "word": "helicopter",
+              "ipa": "/ˈhelɪkɑːptər/",
+              "pos": "n.",
+              "meaning": "直升机",
+              "ex_en": "A police helicopter is following you.",
+              "ex_zh": "一架警用直升机在跟着你。"
+            },
+            {
+              "word": "SWAT",
+              "ipa": "/swɑːt/",
+              "pos": "n.",
+              "meaning": "特警队",
+              "ex_en": "At high wanted levels, SWAT shows up.",
+              "ex_zh": "通缉等级高时，特警会出动。"
+            },
+            {
+              "word": "surrender",
+              "ipa": "/səˈrendər/",
+              "pos": "v.",
+              "meaning": "投降",
+              "ex_en": "Drop your weapon and surrender.",
+              "ex_zh": "放下武器投降。"
+            },
+            {
+              "word": "arrest",
+              "ipa": "/əˈrest/",
+              "pos": "v.",
+              "meaning": "逮捕",
+              "ex_en": "The cops will arrest you if they catch you.",
+              "ex_zh": "被警察抓到就会被逮捕。"
+            },
+            {
+              "word": "busted",
+              "ipa": "/ˈbʌstɪd/",
+              "pos": "adj.",
+              "meaning": "被抓、被捕（游戏失败提示）",
+              "ex_en": "You got busted — try again.",
+              "ex_zh": "你被抓了——再试一次。"
+            },
+            {
+              "word": "bail",
+              "ipa": "/beɪl/",
+              "pos": "n.",
+              "meaning": "保释金",
+              "ex_en": "Pay the bail to get out of jail.",
+              "ex_zh": "交保释金出狱。"
+            },
+            {
+              "word": "CCTV",
+              "ipa": "/ˌsiː siː tiː ˈviː/",
+              "pos": "n.",
+              "meaning": "监控摄像头（证据图标之一）",
+              "ex_en": "Destroy the CCTV footage to clear the evidence.",
+              "ex_zh": "销毁监控录像清除证据。"
+            },
+            {
+              "word": "split up",
+              "ipa": "/splɪt ʌp/",
+              "pos": "phr.",
+              "meaning": "分开行动（两人同行图标）",
+              "ex_en": "Split up so the cops can't spot you two together.",
+              "ex_zh": "分开行动，警察就认不出你们俩了。"
+            },
+            {
+              "word": "facial recognition",
+              "ipa": "/ˈfeɪʃəl ˌrekəɡˈnɪʃən/",
+              "pos": "n.",
+              "meaning": "面部识别",
+              "ex_en": "Wear a mask to beat facial recognition.",
+              "ex_zh": "戴面具躲过面部识别。"
+            },
+            {
+              "word": "perimeter",
+              "ipa": "/pəˈrɪmɪtər/",
+              "pos": "n.",
+              "meaning": "警戒圈、封锁区",
+              "ex_en": "The cops set a perimeter around the block.",
+              "ex_zh": "警察在街区周围设了警戒圈。"
+            }
           ]
         },
         {
@@ -165,38 +1020,270 @@
           "en": "Vehicles & Driving",
           "kind": "words",
           "words": [
-            {"word":"vehicle","ipa":"/ˈviːɪkəl/","pos":"n.","meaning":"车辆","ex_en":"Find a vehicle to escape.","ex_zh":"找辆车逃跑。"},
-            {"word":"carjack","ipa":"/ˈkɑːrdʒæk/","pos":"v.","meaning":"劫车","ex_en":"He carjacked a sports car at the red light.","ex_zh":"他在红灯下劫了一辆跑车。"},
-            {"word":"ride","ipa":"/raɪd/","pos":"n.","meaning":"车（俚）","ex_en":"Nice ride. Where'd you get it?","ex_zh":"好车啊，哪儿搞来的？"},
-            {"word":"wheels","ipa":"/wiːlz/","pos":"n.","meaning":"车（俚）","ex_en":"We need new wheels, fast.","ex_zh":"我们得赶紧搞辆车。"},
-            {"word":"getaway car","ipa":"/ˈɡetəweɪ kɑːr/","pos":"n.","meaning":"逃跑用车","ex_en":"The getaway car is parked by the alley.","ex_zh":"逃跑的车就停在小巷边。"},
-            {"word":"engine","ipa":"/ˈendʒɪn/","pos":"n.","meaning":"引擎、发动机","ex_en":"Start the engine and drive.","ex_zh":"发动引擎开走。"},
-            {"word":"speed","ipa":"/spiːd/","pos":"n.","meaning":"速度","ex_en":"Keep your speed down near the cops.","ex_zh":"在警察附近放慢速度。"},
-            {"word":"crash","ipa":"/kræʃ/","pos":"v.","meaning":"撞车、撞毁","ex_en":"Don't crash into the wall.","ex_zh":"别撞到墙上。"},
-            {"word":"damage","ipa":"/ˈdæmɪdʒ/","pos":"n.","meaning":"损坏","ex_en":"The car took heavy damage in the chase.","ex_zh":"这车在追捕中受损严重。"},
-            {"word":"repair","ipa":"/rɪˈper/","pos":"v.","meaning":"修理","ex_en":"Take the car to a garage to repair it.","ex_zh":"把车开到修车厂修理。"},
-            {"word":"refuel","ipa":"/ˌriːˈfjuːəl/","pos":"v.","meaning":"加油","ex_en":"Stop at the gas station to refuel.","ex_zh":"到加油站停一下加油。"},
-            {"word":"gas station","ipa":"/ɡæs ˈsteɪʃən/","pos":"n.","meaning":"加油站","ex_en":"There's a gas station on the corner.","ex_zh":"街角有个加油站。"},
-            {"word":"traffic","ipa":"/ˈtræfɪk/","pos":"n.","meaning":"车流、交通","ex_en":"Weave through the traffic to escape.","ex_zh":"在车流里穿梭逃跑。"},
-            {"word":"intersection","ipa":"/ˌɪntərˈsekʃən/","pos":"n.","meaning":"十字路口","ex_en":"Turn left at the next intersection.","ex_zh":"下个十字路口左转。"},
-            {"word":"highway","ipa":"/ˈhaɪweɪ/","pos":"n.","meaning":"高速公路","ex_en":"Take the highway out of the city.","ex_zh":"走高速出城。"},
-            {"word":"bridge","ipa":"/brɪdʒ/","pos":"n.","meaning":"桥","ex_en":"Cross the bridge to the other side.","ex_zh":"过桥到对岸。"},
-            {"word":"tunnel","ipa":"/ˈtʌnəl/","pos":"n.","meaning":"隧道","ex_en":"Hide in the tunnel from the helicopter.","ex_zh":"躲进隧道避开直升机。"},
-            {"word":"park","ipa":"/pɑːrk/","pos":"v.","meaning":"停车","ex_en":"Park the car behind the building.","ex_zh":"把车停在大楼后面。"},
-            {"word":"tow","ipa":"/toʊ/","pos":"v.","meaning":"拖走、拖车","ex_en":"Your car will get towed if you leave it.","ex_zh":"车停那儿会被拖走。"},
-            {"word":"airboat","ipa":"/ˈerboʊt/","pos":"n.","meaning":"气垫船（大沼泽通行）","ex_en":"Take the airboat through the swamp.","ex_zh":"开气垫船穿过沼泽。"},
-            {"word":"boat","ipa":"/boʊt/","pos":"n.","meaning":"船","ex_en":"Steal a boat and head to the Keys.","ex_zh":"偷艘船前往群岛。"},
-            {"word":"yacht","ipa":"/jɑːt/","pos":"n.","meaning":"游艇","ex_en":"The target's yacht is in the bay.","ex_zh":"目标的游艇停在海湾里。"},
-            {"word":"marina","ipa":"/məˈriːnə/","pos":"n.","meaning":"游艇码头","ex_en":"Meet the buyer at the marina.","ex_zh":"到游艇码头和买家碰头。"},
-            {"word":"boatyard","ipa":"/ˈboʊtjɑːrd/","pos":"n.","meaning":"船坞","ex_en":"Brian owns a boatyard in the Keys.","ex_zh":"布莱恩在群岛有个船坞。"},
-            {"word":"garage","ipa":"/ɡəˈrɑːʒ/","pos":"n.","meaning":"车库、修车厂","ex_en":"Store your cars in the garage.","ex_zh":"把车存进车库。"},
-            {"word":"chop shop","ipa":"/ˈtʃɑːp ʃɑːp/","pos":"n.","meaning":"黑市拆车场","ex_en":"Stolen cars end up at the chop shop.","ex_zh":"偷来的车最后都进了黑市拆车场。"},
-            {"word":"coupe","ipa":"/kuːp/","pos":"n.","meaning":"双门轿跑","ex_en":"Jason drives a light-blue coupe.","ex_zh":"杰森开一辆浅蓝色轿跑。"},
-            {"word":"pickup","ipa":"/ˈpɪkʌp/","pos":"n.","meaning":"皮卡","ex_en":"Throw the gear in the back of the pickup.","ex_zh":"把装备扔进皮卡后斗。"},
-            {"word":"street race","ipa":"/ˈstriːt reɪs/","pos":"n.","meaning":"街头赛车","ex_en":"There's a street race on Ocean Beach tonight.","ex_zh":"今晚大洋海滩有场街头赛车。"},
-            {"word":"joyride","ipa":"/ˈdʒɔɪraɪd/","pos":"n.","meaning":"兜风、飙车","ex_en":"Let's take this thing for a joyride.","ex_zh":"咱开着这玩意儿兜一圈去。"},
-            {"word":"tail","ipa":"/teɪl/","pos":"v.","meaning":"尾随","ex_en":"That car has been tailing us for blocks.","ex_zh":"那辆车已经尾随我们几条街了。"},
-            {"word":"peel out","ipa":"/piːl aʊt/","pos":"phr.","meaning":"猛踩油门冲出去","ex_en":"Peel out before the cops box us in.","ex_zh":"趁警察还没包抄，猛踩油门冲出去。"}
+            {
+              "word": "vehicle",
+              "ipa": "/ˈviːɪkəl/",
+              "pos": "n.",
+              "meaning": "车辆",
+              "ex_en": "Find a vehicle to escape.",
+              "ex_zh": "找辆车逃跑。"
+            },
+            {
+              "word": "carjack",
+              "ipa": "/ˈkɑːrdʒæk/",
+              "pos": "v.",
+              "meaning": "劫车",
+              "ex_en": "He carjacked a sports car at the red light.",
+              "ex_zh": "他在红灯下劫了一辆跑车。"
+            },
+            {
+              "word": "ride",
+              "ipa": "/raɪd/",
+              "pos": "n.",
+              "meaning": "车（俚）",
+              "ex_en": "Nice ride. Where'd you get it?",
+              "ex_zh": "好车啊，哪儿搞来的？"
+            },
+            {
+              "word": "wheels",
+              "ipa": "/wiːlz/",
+              "pos": "n.",
+              "meaning": "车（俚）",
+              "ex_en": "We need new wheels, fast.",
+              "ex_zh": "我们得赶紧搞辆车。"
+            },
+            {
+              "word": "getaway car",
+              "ipa": "/ˈɡetəweɪ kɑːr/",
+              "pos": "n.",
+              "meaning": "逃跑用车",
+              "ex_en": "The getaway car is parked by the alley.",
+              "ex_zh": "逃跑的车就停在小巷边。"
+            },
+            {
+              "word": "engine",
+              "ipa": "/ˈendʒɪn/",
+              "pos": "n.",
+              "meaning": "引擎、发动机",
+              "ex_en": "Start the engine and drive.",
+              "ex_zh": "发动引擎开走。"
+            },
+            {
+              "word": "speed",
+              "ipa": "/spiːd/",
+              "pos": "n.",
+              "meaning": "速度",
+              "ex_en": "Keep your speed down near the cops.",
+              "ex_zh": "在警察附近放慢速度。"
+            },
+            {
+              "word": "crash",
+              "ipa": "/kræʃ/",
+              "pos": "v.",
+              "meaning": "撞车、撞毁",
+              "ex_en": "Don't crash into the wall.",
+              "ex_zh": "别撞到墙上。"
+            },
+            {
+              "word": "damage",
+              "ipa": "/ˈdæmɪdʒ/",
+              "pos": "n.",
+              "meaning": "损坏",
+              "ex_en": "The car took heavy damage in the chase.",
+              "ex_zh": "这车在追捕中受损严重。"
+            },
+            {
+              "word": "repair",
+              "ipa": "/rɪˈper/",
+              "pos": "v.",
+              "meaning": "修理",
+              "ex_en": "Take the car to a garage to repair it.",
+              "ex_zh": "把车开到修车厂修理。"
+            },
+            {
+              "word": "refuel",
+              "ipa": "/ˌriːˈfjuːəl/",
+              "pos": "v.",
+              "meaning": "加油",
+              "ex_en": "Stop at the gas station to refuel.",
+              "ex_zh": "到加油站停一下加油。"
+            },
+            {
+              "word": "gas station",
+              "ipa": "/ɡæs ˈsteɪʃən/",
+              "pos": "n.",
+              "meaning": "加油站",
+              "ex_en": "There's a gas station on the corner.",
+              "ex_zh": "街角有个加油站。"
+            },
+            {
+              "word": "traffic",
+              "ipa": "/ˈtræfɪk/",
+              "pos": "n.",
+              "meaning": "车流、交通",
+              "ex_en": "Weave through the traffic to escape.",
+              "ex_zh": "在车流里穿梭逃跑。"
+            },
+            {
+              "word": "intersection",
+              "ipa": "/ˌɪntərˈsekʃən/",
+              "pos": "n.",
+              "meaning": "十字路口",
+              "ex_en": "Turn left at the next intersection.",
+              "ex_zh": "下个十字路口左转。"
+            },
+            {
+              "word": "highway",
+              "ipa": "/ˈhaɪweɪ/",
+              "pos": "n.",
+              "meaning": "高速公路",
+              "ex_en": "Take the highway out of the city.",
+              "ex_zh": "走高速出城。"
+            },
+            {
+              "word": "bridge",
+              "ipa": "/brɪdʒ/",
+              "pos": "n.",
+              "meaning": "桥",
+              "ex_en": "Cross the bridge to the other side.",
+              "ex_zh": "过桥到对岸。"
+            },
+            {
+              "word": "tunnel",
+              "ipa": "/ˈtʌnəl/",
+              "pos": "n.",
+              "meaning": "隧道",
+              "ex_en": "Hide in the tunnel from the helicopter.",
+              "ex_zh": "躲进隧道避开直升机。"
+            },
+            {
+              "word": "park",
+              "ipa": "/pɑːrk/",
+              "pos": "v.",
+              "meaning": "停车",
+              "ex_en": "Park the car behind the building.",
+              "ex_zh": "把车停在大楼后面。"
+            },
+            {
+              "word": "tow",
+              "ipa": "/toʊ/",
+              "pos": "v.",
+              "meaning": "拖走、拖车",
+              "ex_en": "Your car will get towed if you leave it.",
+              "ex_zh": "车停那儿会被拖走。"
+            },
+            {
+              "word": "airboat",
+              "ipa": "/ˈerboʊt/",
+              "pos": "n.",
+              "meaning": "气垫船（大沼泽通行）",
+              "ex_en": "Take the airboat through the swamp.",
+              "ex_zh": "开气垫船穿过沼泽。"
+            },
+            {
+              "word": "boat",
+              "ipa": "/boʊt/",
+              "pos": "n.",
+              "meaning": "船",
+              "ex_en": "Steal a boat and head to the Keys.",
+              "ex_zh": "偷艘船前往群岛。"
+            },
+            {
+              "word": "yacht",
+              "ipa": "/jɑːt/",
+              "pos": "n.",
+              "meaning": "游艇",
+              "ex_en": "The target's yacht is in the bay.",
+              "ex_zh": "目标的游艇停在海湾里。"
+            },
+            {
+              "word": "marina",
+              "ipa": "/məˈriːnə/",
+              "pos": "n.",
+              "meaning": "游艇码头",
+              "ex_en": "Meet the buyer at the marina.",
+              "ex_zh": "到游艇码头和买家碰头。"
+            },
+            {
+              "word": "boatyard",
+              "ipa": "/ˈboʊtjɑːrd/",
+              "pos": "n.",
+              "meaning": "船坞",
+              "ex_en": "Brian owns a boatyard in the Keys.",
+              "ex_zh": "布莱恩在群岛有个船坞。"
+            },
+            {
+              "word": "garage",
+              "ipa": "/ɡəˈrɑːʒ/",
+              "pos": "n.",
+              "meaning": "车库、修车厂",
+              "ex_en": "Store your cars in the garage.",
+              "ex_zh": "把车存进车库。"
+            },
+            {
+              "word": "chop shop",
+              "ipa": "/ˈtʃɑːp ʃɑːp/",
+              "pos": "n.",
+              "meaning": "黑市拆车场",
+              "ex_en": "Stolen cars end up at the chop shop.",
+              "ex_zh": "偷来的车最后都进了黑市拆车场。"
+            },
+            {
+              "word": "coupe",
+              "ipa": "/kuːp/",
+              "pos": "n.",
+              "meaning": "双门轿跑",
+              "ex_en": "Jason drives a light-blue coupe.",
+              "ex_zh": "杰森开一辆浅蓝色轿跑。"
+            },
+            {
+              "word": "pickup",
+              "ipa": "/ˈpɪkʌp/",
+              "pos": "n.",
+              "meaning": "皮卡",
+              "ex_en": "Throw the gear in the back of the pickup.",
+              "ex_zh": "把装备扔进皮卡后斗。"
+            },
+            {
+              "word": "street race",
+              "ipa": "/ˈstriːt reɪs/",
+              "pos": "n.",
+              "meaning": "街头赛车",
+              "ex_en": "There's a street race on Ocean Beach tonight.",
+              "ex_zh": "今晚大洋海滩有场街头赛车。"
+            },
+            {
+              "word": "joyride",
+              "ipa": "/ˈdʒɔɪraɪd/",
+              "pos": "n.",
+              "meaning": "兜风、飙车",
+              "ex_en": "Let's take this thing for a joyride.",
+              "ex_zh": "咱开着这玩意儿兜一圈去。"
+            },
+            {
+              "word": "tail",
+              "ipa": "/teɪl/",
+              "pos": "v.",
+              "meaning": "尾随",
+              "ex_en": "That car has been tailing us for blocks.",
+              "ex_zh": "那辆车已经尾随我们几条街了。"
+            },
+            {
+              "word": "peel out",
+              "ipa": "/piːl aʊt/",
+              "pos": "phr.",
+              "meaning": "猛踩油门冲出去",
+              "ex_en": "Peel out before the cops box us in.",
+              "ex_zh": "趁警察还没包抄，猛踩油门冲出去。"
+            },
+            {
+              "word": "jetski",
+              "ipa": "/ˈdʒetskiː/",
+              "pos": "n.",
+              "meaning": "水上摩托",
+              "ex_en": "Rent a jetski at the beach.",
+              "ex_zh": "在海滩租辆水上摩托。"
+            }
           ]
         },
         {
@@ -205,31 +1292,222 @@
           "en": "Weapons & Combat",
           "kind": "words",
           "words": [
-            {"word":"weapon","ipa":"/ˈwepən/","pos":"n.","meaning":"武器","ex_en":"Pick up a weapon before the fight.","ex_zh":"开打前先捡把武器。"},
-            {"word":"ammo","ipa":"/ˈæmoʊ/","pos":"n.","meaning":"弹药","ex_en":"We're running low on ammo.","ex_zh":"我们弹药快打光了。"},
-            {"word":"bullet","ipa":"/ˈbʊlɪt/","pos":"n.","meaning":"子弹","ex_en":"A bullet grazed the car door.","ex_zh":"一颗子弹擦过车门。"},
-            {"word":"magazine","ipa":"/ˈmæɡəziːn/","pos":"n.","meaning":"弹匣","ex_en":"Swap in a fresh magazine.","ex_zh":"换上一个新弹匣。"},
-            {"word":"pistol","ipa":"/ˈpɪstəl/","pos":"n.","meaning":"手枪","ex_en":"Keep a pistol in the glovebox.","ex_zh":"在手套箱里放把手枪。"},
-            {"word":"shotgun","ipa":"/ˈʃɑːtɡʌn/","pos":"n.","meaning":"霰弹枪","ex_en":"A shotgun at close range ends any argument.","ex_zh":"近距离的霰弹枪能终结任何争执。"},
-            {"word":"rifle","ipa":"/ˈraɪfəl/","pos":"n.","meaning":"步枪","ex_en":"A rifle is better for long range.","ex_zh":"远距离用步枪更好。"},
-            {"word":"assault rifle","ipa":"/əˈsɔːlt ˈraɪfəl/","pos":"n.","meaning":"突击步枪","ex_en":"Grab an assault rifle from the trunk.","ex_zh":"从后备箱拿把突击步枪。"},
-            {"word":"sniper","ipa":"/ˈsnaɪpər/","pos":"n.","meaning":"狙击手、狙击枪","ex_en":"Take out the sniper on the roof.","ex_zh":"干掉楼顶的狙击手。"},
-            {"word":"scope","ipa":"/skoʊp/","pos":"n.","meaning":"瞄准镜","ex_en":"A scope helps you hit distant targets.","ex_zh":"瞄准镜帮你打中远处的目标。"},
-            {"word":"silencer","ipa":"/ˈsaɪlənsər/","pos":"n.","meaning":"消音器","ex_en":"Attach a silencer for stealth kills.","ex_zh":"装消音器用于暗杀。"},
-            {"word":"grenade","ipa":"/ɡrəˈneɪd/","pos":"n.","meaning":"手雷","ex_en":"Throw a grenade into the room.","ex_zh":"往房间里扔颗手雷。"},
-            {"word":"explosive","ipa":"/ɪkˈsploʊsɪv/","pos":"n.","meaning":"炸药、爆炸物","ex_en":"Plant the explosive on the door.","ex_zh":"把炸药装在门上。"},
-            {"word":"sticky bomb","ipa":"/ˈstɪki bɑːm/","pos":"n.","meaning":"粘性炸弹","ex_en":"Stick a bomb to the enemy car.","ex_zh":"把炸弹粘到敌人车上。"},
-            {"word":"headshot","ipa":"/ˈhedʃɑːt/","pos":"n.","meaning":"爆头","ex_en":"A headshot takes them down instantly.","ex_zh":"爆头能立刻放倒他们。"},
-            {"word":"cover","ipa":"/ˈkʌvər/","pos":"n.","meaning":"掩体","ex_en":"Get behind cover!","ex_zh":"快找掩体！"},
-            {"word":"shootout","ipa":"/ˈʃuːtaʊt/","pos":"n.","meaning":"枪战、交火","ex_en":"A shootout broke out at the dock.","ex_zh":"码头爆发了一场枪战。"},
-            {"word":"hostage","ipa":"/ˈhɑːstɪdʒ/","pos":"n.","meaning":"人质","ex_en":"They took the clerk hostage.","ex_zh":"他们劫持了店员当人质。"},
-            {"word":"hold up","ipa":"/hoʊld ʌp/","pos":"phr.","meaning":"持枪抢劫","ex_en":"They held up a bank in Port Gellhorn.","ex_zh":"他们抢了盖尔霍恩港的一家银行。"},
-            {"word":"backup","ipa":"/ˈbækʌp/","pos":"n.","meaning":"援军、后援","ex_en":"He called for backup.","ex_zh":"他叫了援军。"},
-            {"word":"wound","ipa":"/wuːnd/","pos":"n.","meaning":"伤口、受伤","ex_en":"Treat the wound before you bleed out.","ex_zh":"在失血过多前处理伤口。"},
-            {"word":"heal","ipa":"/hiːl/","pos":"v.","meaning":"治疗、回血","ex_en":"Eat something to heal.","ex_zh":"吃点东西回血。"},
-            {"word":"first aid","ipa":"/fɜːrst eɪd/","pos":"n.","meaning":"急救（急救包）","ex_en":"Grab a first aid kit from the wall.","ex_zh":"从墙上拿个急救包。"},
-            {"word":"block","ipa":"/blɑːk/","pos":"v.","meaning":"格挡","ex_en":"Block his punch and counter.","ex_zh":"格挡他的拳再反击。"},
-            {"word":"parachute","ipa":"/ˈpærəʃuːt/","pos":"n.","meaning":"降落伞","ex_en":"Pull the parachute before you hit the ground.","ex_zh":"落地前拉开降落伞。"}
+            {
+              "word": "weapon",
+              "ipa": "/ˈwepən/",
+              "pos": "n.",
+              "meaning": "武器",
+              "ex_en": "Pick up a weapon before the fight.",
+              "ex_zh": "开打前先捡把武器。"
+            },
+            {
+              "word": "ammo",
+              "ipa": "/ˈæmoʊ/",
+              "pos": "n.",
+              "meaning": "弹药",
+              "ex_en": "We're running low on ammo.",
+              "ex_zh": "我们弹药快打光了。"
+            },
+            {
+              "word": "bullet",
+              "ipa": "/ˈbʊlɪt/",
+              "pos": "n.",
+              "meaning": "子弹",
+              "ex_en": "A bullet grazed the car door.",
+              "ex_zh": "一颗子弹擦过车门。"
+            },
+            {
+              "word": "magazine",
+              "ipa": "/ˈmæɡəziːn/",
+              "pos": "n.",
+              "meaning": "弹匣",
+              "ex_en": "Swap in a fresh magazine.",
+              "ex_zh": "换上一个新弹匣。"
+            },
+            {
+              "word": "pistol",
+              "ipa": "/ˈpɪstəl/",
+              "pos": "n.",
+              "meaning": "手枪",
+              "ex_en": "Keep a pistol in the glovebox.",
+              "ex_zh": "在手套箱里放把手枪。"
+            },
+            {
+              "word": "shotgun",
+              "ipa": "/ˈʃɑːtɡʌn/",
+              "pos": "n.",
+              "meaning": "霰弹枪",
+              "ex_en": "A shotgun at close range ends any argument.",
+              "ex_zh": "近距离的霰弹枪能终结任何争执。"
+            },
+            {
+              "word": "rifle",
+              "ipa": "/ˈraɪfəl/",
+              "pos": "n.",
+              "meaning": "步枪",
+              "ex_en": "A rifle is better for long range.",
+              "ex_zh": "远距离用步枪更好。"
+            },
+            {
+              "word": "assault rifle",
+              "ipa": "/əˈsɔːlt ˈraɪfəl/",
+              "pos": "n.",
+              "meaning": "突击步枪",
+              "ex_en": "Grab an assault rifle from the trunk.",
+              "ex_zh": "从后备箱拿把突击步枪。"
+            },
+            {
+              "word": "sniper",
+              "ipa": "/ˈsnaɪpər/",
+              "pos": "n.",
+              "meaning": "狙击手、狙击枪",
+              "ex_en": "Take out the sniper on the roof.",
+              "ex_zh": "干掉楼顶的狙击手。"
+            },
+            {
+              "word": "scope",
+              "ipa": "/skoʊp/",
+              "pos": "n.",
+              "meaning": "瞄准镜",
+              "ex_en": "A scope helps you hit distant targets.",
+              "ex_zh": "瞄准镜帮你打中远处的目标。"
+            },
+            {
+              "word": "silencer",
+              "ipa": "/ˈsaɪlənsər/",
+              "pos": "n.",
+              "meaning": "消音器",
+              "ex_en": "Attach a silencer for stealth kills.",
+              "ex_zh": "装消音器用于暗杀。"
+            },
+            {
+              "word": "grenade",
+              "ipa": "/ɡrəˈneɪd/",
+              "pos": "n.",
+              "meaning": "手雷",
+              "ex_en": "Throw a grenade into the room.",
+              "ex_zh": "往房间里扔颗手雷。"
+            },
+            {
+              "word": "explosive",
+              "ipa": "/ɪkˈsploʊsɪv/",
+              "pos": "n.",
+              "meaning": "炸药、爆炸物",
+              "ex_en": "Plant the explosive on the door.",
+              "ex_zh": "把炸药装在门上。"
+            },
+            {
+              "word": "sticky bomb",
+              "ipa": "/ˈstɪki bɑːm/",
+              "pos": "n.",
+              "meaning": "粘性炸弹",
+              "ex_en": "Stick a bomb to the enemy car.",
+              "ex_zh": "把炸弹粘到敌人车上。"
+            },
+            {
+              "word": "headshot",
+              "ipa": "/ˈhedʃɑːt/",
+              "pos": "n.",
+              "meaning": "爆头",
+              "ex_en": "A headshot takes them down instantly.",
+              "ex_zh": "爆头能立刻放倒他们。"
+            },
+            {
+              "word": "cover",
+              "ipa": "/ˈkʌvər/",
+              "pos": "n.",
+              "meaning": "掩体",
+              "ex_en": "Get behind cover!",
+              "ex_zh": "快找掩体！"
+            },
+            {
+              "word": "shootout",
+              "ipa": "/ˈʃuːtaʊt/",
+              "pos": "n.",
+              "meaning": "枪战、交火",
+              "ex_en": "A shootout broke out at the dock.",
+              "ex_zh": "码头爆发了一场枪战。"
+            },
+            {
+              "word": "hostage",
+              "ipa": "/ˈhɑːstɪdʒ/",
+              "pos": "n.",
+              "meaning": "人质",
+              "ex_en": "They took the clerk hostage.",
+              "ex_zh": "他们劫持了店员当人质。"
+            },
+            {
+              "word": "hold up",
+              "ipa": "/hoʊld ʌp/",
+              "pos": "phr.",
+              "meaning": "持枪抢劫",
+              "ex_en": "They held up a bank in Port Gellhorn.",
+              "ex_zh": "他们抢了盖尔霍恩港的一家银行。"
+            },
+            {
+              "word": "backup",
+              "ipa": "/ˈbækʌp/",
+              "pos": "n.",
+              "meaning": "援军、后援",
+              "ex_en": "He called for backup.",
+              "ex_zh": "他叫了援军。"
+            },
+            {
+              "word": "wound",
+              "ipa": "/wuːnd/",
+              "pos": "n.",
+              "meaning": "伤口、受伤",
+              "ex_en": "Treat the wound before you bleed out.",
+              "ex_zh": "在失血过多前处理伤口。"
+            },
+            {
+              "word": "heal",
+              "ipa": "/hiːl/",
+              "pos": "v.",
+              "meaning": "治疗、回血",
+              "ex_en": "Eat something to heal.",
+              "ex_zh": "吃点东西回血。"
+            },
+            {
+              "word": "first aid",
+              "ipa": "/fɜːrst eɪd/",
+              "pos": "n.",
+              "meaning": "急救（急救包）",
+              "ex_en": "Grab a first aid kit from the wall.",
+              "ex_zh": "从墙上拿个急救包。"
+            },
+            {
+              "word": "block",
+              "ipa": "/blɑːk/",
+              "pos": "v.",
+              "meaning": "格挡",
+              "ex_en": "Block his punch and counter.",
+              "ex_zh": "格挡他的拳再反击。"
+            },
+            {
+              "word": "parachute",
+              "ipa": "/ˈpærəʃuːt/",
+              "pos": "n.",
+              "meaning": "降落伞",
+              "ex_en": "Pull the parachute before you hit the ground.",
+              "ex_zh": "落地前拉开降落伞。"
+            },
+            {
+              "word": "molotov",
+              "ipa": "/ˈmɑːlətɑːf/",
+              "pos": "n.",
+              "meaning": "燃烧瓶",
+              "ex_en": "Throw a molotov to torch the car.",
+              "ex_zh": "扔燃烧瓶烧掉那辆车。"
+            },
+            {
+              "word": "slow motion",
+              "ipa": "/sloʊ ˈmoʊʃən/",
+              "pos": "n.",
+              "meaning": "慢动作（紫色条特殊能力）",
+              "ex_en": "Trigger slow motion to line up the shot.",
+              "ex_zh": "触发慢动作来瞄准。"
+            }
           ]
         },
         {
@@ -238,22 +1516,158 @@
           "en": "Shops & Money",
           "kind": "words",
           "words": [
-            {"word":"buy","ipa":"/baɪ/","pos":"v.","meaning":"购买","ex_en":"Buy weapons at the gun store.","ex_zh":"在枪店买武器。"},
-            {"word":"sell","ipa":"/sel/","pos":"v.","meaning":"出售","ex_en":"Sell the stolen cars to a fence.","ex_zh":"把偷来的车卖给销赃的。"},
-            {"word":"price","ipa":"/praɪs/","pos":"n.","meaning":"价格","ex_en":"The price of this car is too high.","ex_zh":"这辆车价格太高了。"},
-            {"word":"cost","ipa":"/kɔːst/","pos":"v.","meaning":"花费","ex_en":"This upgrade costs a lot.","ex_zh":"这个升级很花钱。"},
-            {"word":"discount","ipa":"/ˈdɪskaʊnt/","pos":"n.","meaning":"折扣","ex_en":"You get a discount for loyalty.","ex_zh":"老客户有折扣。"},
-            {"word":"earn","ipa":"/ɜːrn/","pos":"v.","meaning":"赚、挣","ex_en":"Earn money by completing missions.","ex_zh":"靠完成任务赚钱。"},
-            {"word":"spend","ipa":"/spend/","pos":"v.","meaning":"花费","ex_en":"Spend your cash on new weapons.","ex_zh":"把钱花在买新武器上。"},
-            {"word":"wallet","ipa":"/ˈwɑːlɪt/","pos":"n.","meaning":"钱包","ex_en":"Your wallet is full after the heist.","ex_zh":"劫案后你的钱包鼓鼓的。"},
-            {"word":"ATM","ipa":"/ˌeɪ tiː ˈem/","pos":"n.","meaning":"自动取款机","ex_en":"Rob the ATM for quick cash.","ex_zh":"抢 ATM 机快速搞钱。"},
-            {"word":"bank","ipa":"/bæŋk/","pos":"n.","meaning":"银行","ex_en":"The bank heist is the big one.","ex_zh":"抢银行才是大买卖。"},
-            {"word":"property","ipa":"/ˈprɑːpərti/","pos":"n.","meaning":"房产、地产","ex_en":"Buy a property to store your cars.","ex_zh":"买房来存你的车。"},
-            {"word":"business","ipa":"/ˈbɪznəs/","pos":"n.","meaning":"生意、产业","ex_en":"Buy a business for steady income.","ex_zh":"买个产业赚稳定收入。"},
-            {"word":"income","ipa":"/ˈɪnkʌm/","pos":"n.","meaning":"收入","ex_en":"Your businesses generate passive income.","ex_zh":"你的产业会产生被动收入。"},
-            {"word":"reward","ipa":"/rɪˈwɔːrd/","pos":"n.","meaning":"奖励、报酬","ex_en":"Finish the mission to claim your reward.","ex_zh":"完成任务领取奖励。"},
-            {"word":"bonus","ipa":"/ˈboʊnəs/","pos":"n.","meaning":"额外奖励","ex_en":"Get a cash bonus for a perfect run.","ex_zh":"完美通关有现金奖励。"},
-            {"word":"unlock","ipa":"/ʌnˈlɑːk/","pos":"v.","meaning":"解锁","ex_en":"Reach level 10 to unlock this car.","ex_zh":"升到 10 级解锁这辆车。"}
+            {
+              "word": "buy",
+              "ipa": "/baɪ/",
+              "pos": "v.",
+              "meaning": "购买",
+              "ex_en": "Buy weapons at the gun store.",
+              "ex_zh": "在枪店买武器。"
+            },
+            {
+              "word": "sell",
+              "ipa": "/sel/",
+              "pos": "v.",
+              "meaning": "出售",
+              "ex_en": "Sell the stolen cars to a fence.",
+              "ex_zh": "把偷来的车卖给销赃的。"
+            },
+            {
+              "word": "price",
+              "ipa": "/praɪs/",
+              "pos": "n.",
+              "meaning": "价格",
+              "ex_en": "The price of this car is too high.",
+              "ex_zh": "这辆车价格太高了。"
+            },
+            {
+              "word": "cost",
+              "ipa": "/kɔːst/",
+              "pos": "v.",
+              "meaning": "花费",
+              "ex_en": "This upgrade costs a lot.",
+              "ex_zh": "这个升级很花钱。"
+            },
+            {
+              "word": "discount",
+              "ipa": "/ˈdɪskaʊnt/",
+              "pos": "n.",
+              "meaning": "折扣",
+              "ex_en": "You get a discount for loyalty.",
+              "ex_zh": "老客户有折扣。"
+            },
+            {
+              "word": "earn",
+              "ipa": "/ɜːrn/",
+              "pos": "v.",
+              "meaning": "赚、挣",
+              "ex_en": "Earn money by completing missions.",
+              "ex_zh": "靠完成任务赚钱。"
+            },
+            {
+              "word": "spend",
+              "ipa": "/spend/",
+              "pos": "v.",
+              "meaning": "花费",
+              "ex_en": "Spend your cash on new weapons.",
+              "ex_zh": "把钱花在买新武器上。"
+            },
+            {
+              "word": "wallet",
+              "ipa": "/ˈwɑːlɪt/",
+              "pos": "n.",
+              "meaning": "钱包",
+              "ex_en": "Your wallet is full after the heist.",
+              "ex_zh": "劫案后你的钱包鼓鼓的。"
+            },
+            {
+              "word": "ATM",
+              "ipa": "/ˌeɪ tiː ˈem/",
+              "pos": "n.",
+              "meaning": "自动取款机",
+              "ex_en": "Rob the ATM for quick cash.",
+              "ex_zh": "抢 ATM 机快速搞钱。"
+            },
+            {
+              "word": "bank",
+              "ipa": "/bæŋk/",
+              "pos": "n.",
+              "meaning": "银行",
+              "ex_en": "The bank heist is the big one.",
+              "ex_zh": "抢银行才是大买卖。"
+            },
+            {
+              "word": "property",
+              "ipa": "/ˈprɑːpərti/",
+              "pos": "n.",
+              "meaning": "房产、地产",
+              "ex_en": "Buy a property to store your cars.",
+              "ex_zh": "买房来存你的车。"
+            },
+            {
+              "word": "business",
+              "ipa": "/ˈbɪznəs/",
+              "pos": "n.",
+              "meaning": "生意、产业",
+              "ex_en": "Buy a business for steady income.",
+              "ex_zh": "买个产业赚稳定收入。"
+            },
+            {
+              "word": "income",
+              "ipa": "/ˈɪnkʌm/",
+              "pos": "n.",
+              "meaning": "收入",
+              "ex_en": "Your businesses generate passive income.",
+              "ex_zh": "你的产业会产生被动收入。"
+            },
+            {
+              "word": "reward",
+              "ipa": "/rɪˈwɔːrd/",
+              "pos": "n.",
+              "meaning": "奖励、报酬",
+              "ex_en": "Finish the mission to claim your reward.",
+              "ex_zh": "完成任务领取奖励。"
+            },
+            {
+              "word": "bonus",
+              "ipa": "/ˈboʊnəs/",
+              "pos": "n.",
+              "meaning": "额外奖励",
+              "ex_en": "Get a cash bonus for a perfect run.",
+              "ex_zh": "完美通关有现金奖励。"
+            },
+            {
+              "word": "unlock",
+              "ipa": "/ʌnˈlɑːk/",
+              "pos": "v.",
+              "meaning": "解锁",
+              "ex_en": "Reach level 10 to unlock this car.",
+              "ex_zh": "升到 10 级解锁这辆车。"
+            },
+            {
+              "word": "duffel bag",
+              "ipa": "/ˈdʌfəl bæɡ/",
+              "pos": "n.",
+              "meaning": "行李袋（装赃物）",
+              "ex_en": "Stuff the loot into a duffel bag.",
+              "ex_zh": "把赃物塞进行李袋。"
+            },
+            {
+              "word": "convenience store",
+              "ipa": "/kənˈviːnjəns stɔːr/",
+              "pos": "n.",
+              "meaning": "便利店",
+              "ex_en": "Rob the convenience store for quick cash.",
+              "ex_zh": "抢便利店快速搞钱。"
+            },
+            {
+              "word": "tracker",
+              "ipa": "/ˈtrækər/",
+              "pos": "n.",
+              "meaning": "（车辆）追踪器",
+              "ex_en": "A fence can remove the tracker from a stolen car.",
+              "ex_zh": "销赃的能拆掉赃车上的追踪器。"
+            }
           ]
         },
         {
@@ -262,18 +1676,102 @@
           "en": "Map & Navigation",
           "kind": "words",
           "words": [
-            {"word":"map","ipa":"/mæp/","pos":"n.","meaning":"地图","ex_en":"Open the map to see the city.","ex_zh":"打开地图查看全城。"},
-            {"word":"location","ipa":"/loʊˈkeɪʃən/","pos":"n.","meaning":"位置","ex_en":"The mission location is marked.","ex_zh":"任务位置已经标出来了。"},
-            {"word":"route","ipa":"/ruːt/","pos":"n.","meaning":"路线","ex_en":"The route is highlighted on the map.","ex_zh":"路线在地图上高亮显示。"},
-            {"word":"distance","ipa":"/ˈdɪstəns/","pos":"n.","meaning":"距离","ex_en":"The target is a short distance away.","ex_zh":"目标就在不远处。"},
-            {"word":"destination","ipa":"/ˌdestɪˈneɪʃən/","pos":"n.","meaning":"目的地","ex_en":"Your destination is on the coast.","ex_zh":"你的目的地在海边。"},
-            {"word":"north","ipa":"/nɔːrθ/","pos":"n.","meaning":"北","ex_en":"Head north along the highway.","ex_zh":"沿高速向北走。"},
-            {"word":"south","ipa":"/saʊθ/","pos":"n.","meaning":"南","ex_en":"The port is to the south.","ex_zh":"港口在南边。"},
-            {"word":"east","ipa":"/iːst/","pos":"n.","meaning":"东","ex_en":"Drive east to the beach.","ex_zh":"往东开到海滩。"},
-            {"word":"west","ipa":"/west/","pos":"n.","meaning":"西","ex_en":"The safehouse is on the west side.","ex_zh":"安全屋在西边。"},
-            {"word":"area","ipa":"/ˈeriə/","pos":"n.","meaning":"区域","ex_en":"This area is gang territory.","ex_zh":"这片区域是帮派地盘。"},
-            {"word":"district","ipa":"/ˈdɪstrɪkt/","pos":"n.","meaning":"城区、区","ex_en":"The business district is downtown.","ex_zh":"商业区在市中心。"},
-            {"word":"neighborhood","ipa":"/ˈneɪbərhʊd/","pos":"n.","meaning":"街区、社区","ex_en":"Grow up in a rough neighborhood.","ex_zh":"在混乱的街区长大。"}
+            {
+              "word": "map",
+              "ipa": "/mæp/",
+              "pos": "n.",
+              "meaning": "地图",
+              "ex_en": "Open the map to see the city.",
+              "ex_zh": "打开地图查看全城。"
+            },
+            {
+              "word": "location",
+              "ipa": "/loʊˈkeɪʃən/",
+              "pos": "n.",
+              "meaning": "位置",
+              "ex_en": "The mission location is marked.",
+              "ex_zh": "任务位置已经标出来了。"
+            },
+            {
+              "word": "route",
+              "ipa": "/ruːt/",
+              "pos": "n.",
+              "meaning": "路线",
+              "ex_en": "The route is highlighted on the map.",
+              "ex_zh": "路线在地图上高亮显示。"
+            },
+            {
+              "word": "distance",
+              "ipa": "/ˈdɪstəns/",
+              "pos": "n.",
+              "meaning": "距离",
+              "ex_en": "The target is a short distance away.",
+              "ex_zh": "目标就在不远处。"
+            },
+            {
+              "word": "destination",
+              "ipa": "/ˌdestɪˈneɪʃən/",
+              "pos": "n.",
+              "meaning": "目的地",
+              "ex_en": "Your destination is on the coast.",
+              "ex_zh": "你的目的地在海边。"
+            },
+            {
+              "word": "north",
+              "ipa": "/nɔːrθ/",
+              "pos": "n.",
+              "meaning": "北",
+              "ex_en": "Head north along the highway.",
+              "ex_zh": "沿高速向北走。"
+            },
+            {
+              "word": "south",
+              "ipa": "/saʊθ/",
+              "pos": "n.",
+              "meaning": "南",
+              "ex_en": "The port is to the south.",
+              "ex_zh": "港口在南边。"
+            },
+            {
+              "word": "east",
+              "ipa": "/iːst/",
+              "pos": "n.",
+              "meaning": "东",
+              "ex_en": "Drive east to the beach.",
+              "ex_zh": "往东开到海滩。"
+            },
+            {
+              "word": "west",
+              "ipa": "/west/",
+              "pos": "n.",
+              "meaning": "西",
+              "ex_en": "The safehouse is on the west side.",
+              "ex_zh": "安全屋在西边。"
+            },
+            {
+              "word": "area",
+              "ipa": "/ˈeriə/",
+              "pos": "n.",
+              "meaning": "区域",
+              "ex_en": "This area is gang territory.",
+              "ex_zh": "这片区域是帮派地盘。"
+            },
+            {
+              "word": "district",
+              "ipa": "/ˈdɪstrɪkt/",
+              "pos": "n.",
+              "meaning": "城区、区",
+              "ex_en": "The business district is downtown.",
+              "ex_zh": "商业区在市中心。"
+            },
+            {
+              "word": "neighborhood",
+              "ipa": "/ˈneɪbərhʊd/",
+              "pos": "n.",
+              "meaning": "街区、社区",
+              "ex_en": "Grow up in a rough neighborhood.",
+              "ex_zh": "在混乱的街区长大。"
+            }
           ]
         },
         {
@@ -282,28 +1780,182 @@
           "en": "Crime & Slang",
           "kind": "words",
           "words": [
-            {"word":"grifter","ipa":"/ˈɡrɪftər/","pos":"n.","meaning":"骗子、捞偏门的人","ex_en":"Jason grew up around grifters and crooks.","ex_zh":"杰森是在骗子和混混堆里长大的。"},
-            {"word":"crook","ipa":"/krʊk/","pos":"n.","meaning":"罪犯、混混","ex_en":"The whole town knows he's a crook.","ex_zh":"全镇都知道他是个罪犯。"},
-            {"word":"con","ipa":"/kɑːn/","pos":"n.","meaning":"骗局","ex_en":"It was all a con from the start.","ex_zh":"从头到尾就是个骗局。"},
-            {"word":"hustle","ipa":"/ˈhʌsəl/","pos":"v.","meaning":"捞偏门、拼命搞钱","ex_en":"A man's gotta hustle to survive in Vice City.","ex_zh":"在罪恶城，人得拼命搞钱才能活下去。"},
-            {"word":"fence","ipa":"/fens/","pos":"n.","meaning":"销赃人","ex_en":"Sell the stolen goods to a fence.","ex_zh":"把赃物卖给销赃的。"},
-            {"word":"loot","ipa":"/luːt/","pos":"n.","meaning":"赃物、战利品","ex_en":"Grab the loot and go!","ex_zh":"拿上赃物快走！"},
-            {"word":"stash","ipa":"/stæʃ/","pos":"n.","meaning":"藏匿的现金或赃物","ex_en":"He keeps his stash under the floorboards.","ex_zh":"他把藏的钱放在地板下面。"},
-            {"word":"contraband","ipa":"/ˈkɑːntrəbænd/","pos":"n.","meaning":"违禁品、走私货","ex_en":"The boat was carrying contraband.","ex_zh":"那艘船载着违禁品。"},
-            {"word":"smuggler","ipa":"/ˈsmʌɡlər/","pos":"n.","meaning":"走私者","ex_en":"Smugglers use the Keys to move goods at night.","ex_zh":"走私者夜里利用群岛运货。"},
-            {"word":"runner","ipa":"/ˈrʌnər/","pos":"n.","meaning":"跑腿运货的（drug runner 毒贩马仔）","ex_en":"He started as a drug runner for the cartel.","ex_zh":"他起初是给卡特尔跑腿运毒的。"},
-            {"word":"shakedown","ipa":"/ˈʃeɪkdaʊn/","pos":"n.","meaning":"敲诈勒索","ex_en":"Brian sent Jason to do a shakedown.","ex_zh":"布莱恩派杰森去敲诈一笔。"},
-            {"word":"extortion","ipa":"/ɪkˈstɔːrʃən/","pos":"n.","meaning":"勒索","ex_en":"Extortion is just part of doing business here.","ex_zh":"在这，勒索不过是做生意的一部分。"},
-            {"word":"bribe","ipa":"/braɪb/","pos":"v.","meaning":"贿赂","ex_en":"He bribed the guard to look the other way.","ex_zh":"他贿赂看守睁一只眼闭一只眼。"},
-            {"word":"snitch","ipa":"/snɪtʃ/","pos":"n.","meaning":"告密者","ex_en":"If you talk, you're a snitch.","ex_zh":"你要是说出去，就是告密。"},
-            {"word":"rat","ipa":"/ræt/","pos":"v.","meaning":"告密、出卖","ex_en":"Don't rat me out to the cops.","ex_zh":"别把我出卖给警察。"},
-            {"word":"mark","ipa":"/mɑːrk/","pos":"n.","meaning":"下手的对象、目标","ex_en":"He picked the rich tourist as his mark.","ex_zh":"他挑那个有钱游客下手。"},
-            {"word":"parole","ipa":"/pəˈroʊl/","pos":"n.","meaning":"假释","ex_en":"Lucia is out on parole.","ex_zh":"露西亚是假释出狱的。"},
-            {"word":"rap sheet","ipa":"/ræp ʃiːt/","pos":"n.","meaning":"前科记录","ex_en":"Your rap sheet makes you a suspect.","ex_zh":"你的前科让你成了嫌疑人。"},
-            {"word":"double-cross","ipa":"/ˌdʌbəlˈkrɔːs/","pos":"v.","meaning":"背叛、出卖","ex_en":"Never double-cross a man like Brian.","ex_zh":"千万别背叛布莱恩这种人。"},
-            {"word":"deal","ipa":"/diːl/","pos":"n.","meaning":"交易","ex_en":"The deal went south when the cops showed up.","ex_zh":"警察一出现，交易就黄了。"},
-            {"word":"shipment","ipa":"/ˈʃɪpmənt/","pos":"n.","meaning":"一批货","ex_en":"The drugs are in the shipment on the boat.","ex_zh":"毒品就在那艘船的货里。"},
-            {"word":"payoff","ipa":"/ˈpeɪɔːf/","pos":"n.","meaning":"回报、报酬","ex_en":"The payoff isn't worth the risk.","ex_zh":"这笔回报不值这个风险。"}
+            {
+              "word": "grifter",
+              "ipa": "/ˈɡrɪftər/",
+              "pos": "n.",
+              "meaning": "骗子、捞偏门的人",
+              "ex_en": "Jason grew up around grifters and crooks.",
+              "ex_zh": "杰森是在骗子和混混堆里长大的。"
+            },
+            {
+              "word": "crook",
+              "ipa": "/krʊk/",
+              "pos": "n.",
+              "meaning": "罪犯、混混",
+              "ex_en": "The whole town knows he's a crook.",
+              "ex_zh": "全镇都知道他是个罪犯。"
+            },
+            {
+              "word": "con",
+              "ipa": "/kɑːn/",
+              "pos": "n.",
+              "meaning": "骗局",
+              "ex_en": "It was all a con from the start.",
+              "ex_zh": "从头到尾就是个骗局。"
+            },
+            {
+              "word": "hustle",
+              "ipa": "/ˈhʌsəl/",
+              "pos": "v.",
+              "meaning": "捞偏门、拼命搞钱",
+              "ex_en": "A man's gotta hustle to survive in Vice City.",
+              "ex_zh": "在罪恶城，人得拼命搞钱才能活下去。"
+            },
+            {
+              "word": "fence",
+              "ipa": "/fens/",
+              "pos": "n.",
+              "meaning": "销赃人",
+              "ex_en": "Sell the stolen goods to a fence.",
+              "ex_zh": "把赃物卖给销赃的。"
+            },
+            {
+              "word": "loot",
+              "ipa": "/luːt/",
+              "pos": "n.",
+              "meaning": "赃物、战利品",
+              "ex_en": "Grab the loot and go!",
+              "ex_zh": "拿上赃物快走！"
+            },
+            {
+              "word": "stash",
+              "ipa": "/stæʃ/",
+              "pos": "n.",
+              "meaning": "藏匿的现金或赃物",
+              "ex_en": "He keeps his stash under the floorboards.",
+              "ex_zh": "他把藏的钱放在地板下面。"
+            },
+            {
+              "word": "contraband",
+              "ipa": "/ˈkɑːntrəbænd/",
+              "pos": "n.",
+              "meaning": "违禁品、走私货",
+              "ex_en": "The boat was carrying contraband.",
+              "ex_zh": "那艘船载着违禁品。"
+            },
+            {
+              "word": "smuggler",
+              "ipa": "/ˈsmʌɡlər/",
+              "pos": "n.",
+              "meaning": "走私者",
+              "ex_en": "Smugglers use the Keys to move goods at night.",
+              "ex_zh": "走私者夜里利用群岛运货。"
+            },
+            {
+              "word": "runner",
+              "ipa": "/ˈrʌnər/",
+              "pos": "n.",
+              "meaning": "跑腿运货的（drug runner 毒贩马仔）",
+              "ex_en": "He started as a drug runner for the cartel.",
+              "ex_zh": "他起初是给卡特尔跑腿运毒的。"
+            },
+            {
+              "word": "shakedown",
+              "ipa": "/ˈʃeɪkdaʊn/",
+              "pos": "n.",
+              "meaning": "敲诈勒索",
+              "ex_en": "Brian sent Jason to do a shakedown.",
+              "ex_zh": "布莱恩派杰森去敲诈一笔。"
+            },
+            {
+              "word": "extortion",
+              "ipa": "/ɪkˈstɔːrʃən/",
+              "pos": "n.",
+              "meaning": "勒索",
+              "ex_en": "Extortion is just part of doing business here.",
+              "ex_zh": "在这，勒索不过是做生意的一部分。"
+            },
+            {
+              "word": "bribe",
+              "ipa": "/braɪb/",
+              "pos": "v.",
+              "meaning": "贿赂",
+              "ex_en": "He bribed the guard to look the other way.",
+              "ex_zh": "他贿赂看守睁一只眼闭一只眼。"
+            },
+            {
+              "word": "snitch",
+              "ipa": "/snɪtʃ/",
+              "pos": "n.",
+              "meaning": "告密者",
+              "ex_en": "If you talk, you're a snitch.",
+              "ex_zh": "你要是说出去，就是告密。"
+            },
+            {
+              "word": "rat",
+              "ipa": "/ræt/",
+              "pos": "v.",
+              "meaning": "告密、出卖",
+              "ex_en": "Don't rat me out to the cops.",
+              "ex_zh": "别把我出卖给警察。"
+            },
+            {
+              "word": "mark",
+              "ipa": "/mɑːrk/",
+              "pos": "n.",
+              "meaning": "下手的对象、目标",
+              "ex_en": "He picked the rich tourist as his mark.",
+              "ex_zh": "他挑那个有钱游客下手。"
+            },
+            {
+              "word": "parole",
+              "ipa": "/pəˈroʊl/",
+              "pos": "n.",
+              "meaning": "假释",
+              "ex_en": "Lucia is out on parole.",
+              "ex_zh": "露西亚是假释出狱的。"
+            },
+            {
+              "word": "rap sheet",
+              "ipa": "/ræp ʃiːt/",
+              "pos": "n.",
+              "meaning": "前科记录",
+              "ex_en": "Your rap sheet makes you a suspect.",
+              "ex_zh": "你的前科让你成了嫌疑人。"
+            },
+            {
+              "word": "double-cross",
+              "ipa": "/ˌdʌbəlˈkrɔːs/",
+              "pos": "v.",
+              "meaning": "背叛、出卖",
+              "ex_en": "Never double-cross a man like Brian.",
+              "ex_zh": "千万别背叛布莱恩这种人。"
+            },
+            {
+              "word": "deal",
+              "ipa": "/diːl/",
+              "pos": "n.",
+              "meaning": "交易",
+              "ex_en": "The deal went south when the cops showed up.",
+              "ex_zh": "警察一出现，交易就黄了。"
+            },
+            {
+              "word": "shipment",
+              "ipa": "/ˈʃɪpmənt/",
+              "pos": "n.",
+              "meaning": "一批货",
+              "ex_en": "The drugs are in the shipment on the boat.",
+              "ex_zh": "毒品就在那艘船的货里。"
+            },
+            {
+              "word": "payoff",
+              "ipa": "/ˈpeɪɔːf/",
+              "pos": "n.",
+              "meaning": "回报、报酬",
+              "ex_en": "The payoff isn't worth the risk.",
+              "ex_zh": "这笔回报不值这个风险。"
+            }
           ]
         },
         {
@@ -312,19 +1964,110 @@
           "en": "Environment & Geography",
           "kind": "words",
           "words": [
-            {"word":"archipelago","ipa":"/ˌɑːrkəˈpeləɡoʊ/","pos":"n.","meaning":"群岛","ex_en":"The Keys are a chain of islands — an archipelago.","ex_zh":"礁岛群就是一串岛屿——一个群岛。"},
-            {"word":"island","ipa":"/ˈaɪlənd/","pos":"n.","meaning":"岛屿","ex_en":"The smugglers hide on the islands.","ex_zh":"走私者藏在岛上。"},
-            {"word":"swamp","ipa":"/swɑːmp/","pos":"n.","meaning":"沼泽","ex_en":"The airboat glides over the swamp.","ex_zh":"气垫船在沼泽上滑行。"},
-            {"word":"marsh","ipa":"/mɑːrʃ/","pos":"n.","meaning":"湿地、沼泽","ex_en":"Bodies get dumped in the marsh.","ex_zh":"尸体都被扔进了湿地。"},
-            {"word":"everglades","ipa":"/ˈevərɡleɪdz/","pos":"n.","meaning":"大沼泽地","ex_en":"The Everglades hide every secret.","ex_zh":"大沼泽地藏得住一切秘密。"},
-            {"word":"coastline","ipa":"/ˈkoʊstlaɪn/","pos":"n.","meaning":"海岸线","ex_en":"The coastline runs for miles.","ex_zh":"海岸线绵延数英里。"},
-            {"word":"waterway","ipa":"/ˈwɔːtərweɪ/","pos":"n.","meaning":"水道、内河航道","ex_en":"Smugglers use the waterways to move goods.","ex_zh":"走私者走水道运货。"},
-            {"word":"bay","ipa":"/beɪ/","pos":"n.","meaning":"海湾","ex_en":"The yacht is anchored in the bay.","ex_zh":"游艇停泊在海湾里。"},
-            {"word":"pier","ipa":"/pɪr/","pos":"n.","meaning":"码头、栈桥","ex_en":"Fish off the pier at sunset.","ex_zh":"日落时在栈桥上钓鱼。"},
-            {"word":"beach","ipa":"/biːtʃ/","pos":"n.","meaning":"海滩","ex_en":"Meet me on the beach at noon.","ex_zh":"中午在海滩见我。"},
-            {"word":"gator","ipa":"/ˈɡeɪtər/","pos":"n.","meaning":"鳄鱼（alligator 口语）","ex_en":"Watch out for gators in the marsh.","ex_zh":"在湿地要当心鳄鱼。"},
-            {"word":"peninsula","ipa":"/pəˈnɪnsələ/","pos":"n.","meaning":"半岛","ex_en":"Vice City sits on a peninsula.","ex_zh":"罪恶城坐落在一个半岛上。"},
-            {"word":"reef","ipa":"/riːf/","pos":"n.","meaning":"礁石、珊瑚礁","ex_en":"Don't wreck the boat on the reef.","ex_zh":"别把船撞到礁石上。"}
+            {
+              "word": "archipelago",
+              "ipa": "/ˌɑːrkəˈpeləɡoʊ/",
+              "pos": "n.",
+              "meaning": "群岛",
+              "ex_en": "The Keys are a chain of islands — an archipelago.",
+              "ex_zh": "礁岛群就是一串岛屿——一个群岛。"
+            },
+            {
+              "word": "island",
+              "ipa": "/ˈaɪlənd/",
+              "pos": "n.",
+              "meaning": "岛屿",
+              "ex_en": "The smugglers hide on the islands.",
+              "ex_zh": "走私者藏在岛上。"
+            },
+            {
+              "word": "swamp",
+              "ipa": "/swɑːmp/",
+              "pos": "n.",
+              "meaning": "沼泽",
+              "ex_en": "The airboat glides over the swamp.",
+              "ex_zh": "气垫船在沼泽上滑行。"
+            },
+            {
+              "word": "marsh",
+              "ipa": "/mɑːrʃ/",
+              "pos": "n.",
+              "meaning": "湿地、沼泽",
+              "ex_en": "Bodies get dumped in the marsh.",
+              "ex_zh": "尸体都被扔进了湿地。"
+            },
+            {
+              "word": "everglades",
+              "ipa": "/ˈevərɡleɪdz/",
+              "pos": "n.",
+              "meaning": "大沼泽地",
+              "ex_en": "The Everglades hide every secret.",
+              "ex_zh": "大沼泽地藏得住一切秘密。"
+            },
+            {
+              "word": "coastline",
+              "ipa": "/ˈkoʊstlaɪn/",
+              "pos": "n.",
+              "meaning": "海岸线",
+              "ex_en": "The coastline runs for miles.",
+              "ex_zh": "海岸线绵延数英里。"
+            },
+            {
+              "word": "waterway",
+              "ipa": "/ˈwɔːtərweɪ/",
+              "pos": "n.",
+              "meaning": "水道、内河航道",
+              "ex_en": "Smugglers use the waterways to move goods.",
+              "ex_zh": "走私者走水道运货。"
+            },
+            {
+              "word": "bay",
+              "ipa": "/beɪ/",
+              "pos": "n.",
+              "meaning": "海湾",
+              "ex_en": "The yacht is anchored in the bay.",
+              "ex_zh": "游艇停泊在海湾里。"
+            },
+            {
+              "word": "pier",
+              "ipa": "/pɪr/",
+              "pos": "n.",
+              "meaning": "码头、栈桥",
+              "ex_en": "Fish off the pier at sunset.",
+              "ex_zh": "日落时在栈桥上钓鱼。"
+            },
+            {
+              "word": "beach",
+              "ipa": "/biːtʃ/",
+              "pos": "n.",
+              "meaning": "海滩",
+              "ex_en": "Meet me on the beach at noon.",
+              "ex_zh": "中午在海滩见我。"
+            },
+            {
+              "word": "gator",
+              "ipa": "/ˈɡeɪtər/",
+              "pos": "n.",
+              "meaning": "鳄鱼（alligator 口语）",
+              "ex_en": "Watch out for gators in the marsh.",
+              "ex_zh": "在湿地要当心鳄鱼。"
+            },
+            {
+              "word": "peninsula",
+              "ipa": "/pəˈnɪnsələ/",
+              "pos": "n.",
+              "meaning": "半岛",
+              "ex_en": "Vice City sits on a peninsula.",
+              "ex_zh": "罪恶城坐落在一个半岛上。"
+            },
+            {
+              "word": "reef",
+              "ipa": "/riːf/",
+              "pos": "n.",
+              "meaning": "礁石、珊瑚礁",
+              "ex_en": "Don't wreck the boat on the reef.",
+              "ex_zh": "别把船撞到礁石上。"
+            }
           ]
         },
         {
@@ -333,20 +2076,142 @@
           "en": "Characters & Story",
           "kind": "words",
           "words": [
-            {"word":"protagonist","ipa":"/proʊˈtæɡənɪst/","pos":"n.","meaning":"主角","ex_en":"You control two protagonists in GTA 6.","ex_zh":"GTA6 里你操控两个主角。"},
-            {"word":"partner","ipa":"/ˈpɑːrtnər/","pos":"n.","meaning":"搭档","ex_en":"Jason and Lucia are partners in crime.","ex_zh":"杰森和露西亚是犯罪搭档。"},
-            {"word":"gang","ipa":"/ɡæŋ/","pos":"n.","meaning":"帮派","ex_en":"A rival gang controls that street.","ex_zh":"敌对帮派控制着那条街。"},
-            {"word":"cartel","ipa":"/kɑːrˈtel/","pos":"n.","meaning":"卡特尔（贩毒集团）","ex_en":"The cartel runs the drug trade in the Keys.","ex_zh":"卡特尔控制着群岛的毒品交易。"},
-            {"word":"mafia","ipa":"/ˈmɑːfiə/","pos":"n.","meaning":"黑手党","ex_en":"The mafia wants a cut of your business.","ex_zh":"黑手党想从你生意里分一杯羹。"},
-            {"word":"rival","ipa":"/ˈraɪvəl/","pos":"n.","meaning":"对手、敌对","ex_en":"Take down your rival's operation.","ex_zh":"搞垮你对手的生意。"},
-            {"word":"enemy","ipa":"/ˈenəmi/","pos":"n.","meaning":"敌人","ex_en":"The enemies are closing in.","ex_zh":"敌人正在逼近。"},
-            {"word":"ally","ipa":"/ˈælaɪ/","pos":"n.","meaning":"盟友","ex_en":"Make allies to grow your empire.","ex_zh":"结交盟友壮大你的帝国。"},
-            {"word":"betrayal","ipa":"/bɪˈtreɪəl/","pos":"n.","meaning":"背叛","ex_en":"The story is full of betrayal.","ex_zh":"这个故事充满了背叛。"},
-            {"word":"revenge","ipa":"/rɪˈvendʒ/","pos":"n.","meaning":"复仇","ex_en":"He's out for revenge.","ex_zh":"他一心要复仇。"},
-            {"word":"loyalty","ipa":"/ˈlɔɪəlti/","pos":"n.","meaning":"忠诚","ex_en":"Loyalty matters in this world.","ex_zh":"在这个世界里，忠诚很重要。"},
-            {"word":"Boss","ipa":"/bɔːs/","pos":"n.","meaning":"老板、老大","ex_en":"The boss wants the job done tonight.","ex_zh":"老板要今晚把活儿干完。"},
-            {"word":"prison","ipa":"/ˈprɪzən/","pos":"n.","meaning":"监狱","ex_en":"Lucia just got out of prison.","ex_zh":"露西亚刚出狱。"},
-            {"word":"jail","ipa":"/dʒeɪl/","pos":"n.","meaning":"监狱、拘留所","ex_en":"You'll end up in jail if caught.","ex_zh":"被抓你就得进监狱。"}
+            {
+              "word": "protagonist",
+              "ipa": "/proʊˈtæɡənɪst/",
+              "pos": "n.",
+              "meaning": "主角",
+              "ex_en": "You control two protagonists in GTA 6.",
+              "ex_zh": "GTA6 里你操控两个主角。"
+            },
+            {
+              "word": "partner",
+              "ipa": "/ˈpɑːrtnər/",
+              "pos": "n.",
+              "meaning": "搭档",
+              "ex_en": "Jason and Lucia are partners in crime.",
+              "ex_zh": "杰森和露西亚是犯罪搭档。"
+            },
+            {
+              "word": "gang",
+              "ipa": "/ɡæŋ/",
+              "pos": "n.",
+              "meaning": "帮派",
+              "ex_en": "A rival gang controls that street.",
+              "ex_zh": "敌对帮派控制着那条街。"
+            },
+            {
+              "word": "cartel",
+              "ipa": "/kɑːrˈtel/",
+              "pos": "n.",
+              "meaning": "卡特尔（贩毒集团）",
+              "ex_en": "The cartel runs the drug trade in the Keys.",
+              "ex_zh": "卡特尔控制着群岛的毒品交易。"
+            },
+            {
+              "word": "mafia",
+              "ipa": "/ˈmɑːfiə/",
+              "pos": "n.",
+              "meaning": "黑手党",
+              "ex_en": "The mafia wants a cut of your business.",
+              "ex_zh": "黑手党想从你生意里分一杯羹。"
+            },
+            {
+              "word": "rival",
+              "ipa": "/ˈraɪvəl/",
+              "pos": "n.",
+              "meaning": "对手、敌对",
+              "ex_en": "Take down your rival's operation.",
+              "ex_zh": "搞垮你对手的生意。"
+            },
+            {
+              "word": "enemy",
+              "ipa": "/ˈenəmi/",
+              "pos": "n.",
+              "meaning": "敌人",
+              "ex_en": "The enemies are closing in.",
+              "ex_zh": "敌人正在逼近。"
+            },
+            {
+              "word": "ally",
+              "ipa": "/ˈælaɪ/",
+              "pos": "n.",
+              "meaning": "盟友",
+              "ex_en": "Make allies to grow your empire.",
+              "ex_zh": "结交盟友壮大你的帝国。"
+            },
+            {
+              "word": "betrayal",
+              "ipa": "/bɪˈtreɪəl/",
+              "pos": "n.",
+              "meaning": "背叛",
+              "ex_en": "The story is full of betrayal.",
+              "ex_zh": "这个故事充满了背叛。"
+            },
+            {
+              "word": "revenge",
+              "ipa": "/rɪˈvendʒ/",
+              "pos": "n.",
+              "meaning": "复仇",
+              "ex_en": "He's out for revenge.",
+              "ex_zh": "他一心要复仇。"
+            },
+            {
+              "word": "loyalty",
+              "ipa": "/ˈlɔɪəlti/",
+              "pos": "n.",
+              "meaning": "忠诚",
+              "ex_en": "Loyalty matters in this world.",
+              "ex_zh": "在这个世界里，忠诚很重要。"
+            },
+            {
+              "word": "Boss",
+              "ipa": "/bɔːs/",
+              "pos": "n.",
+              "meaning": "老板、老大",
+              "ex_en": "The boss wants the job done tonight.",
+              "ex_zh": "老板要今晚把活儿干完。"
+            },
+            {
+              "word": "prison",
+              "ipa": "/ˈprɪzən/",
+              "pos": "n.",
+              "meaning": "监狱",
+              "ex_en": "Lucia just got out of prison.",
+              "ex_zh": "露西亚刚出狱。"
+            },
+            {
+              "word": "jail",
+              "ipa": "/dʒeɪl/",
+              "pos": "n.",
+              "meaning": "监狱、拘留所",
+              "ex_en": "You'll end up in jail if caught.",
+              "ex_zh": "被抓你就得进监狱。"
+            },
+            {
+              "word": "relationship",
+              "ipa": "/rɪˈleɪʃənʃɪp/",
+              "pos": "n.",
+              "meaning": "关系、感情（双主角好感度）",
+              "ex_en": "Hang out together to build your relationship.",
+              "ex_zh": "一起待着能增进感情。"
+            },
+            {
+              "word": "open carry",
+              "ipa": "/ˈoʊpən ˈkæri/",
+              "pos": "n.",
+              "meaning": "公开持枪",
+              "ex_en": "Open carry draws attention from NPCs.",
+              "ex_zh": "公开持枪会引来路人注意。"
+            },
+            {
+              "word": "criminal profile",
+              "ipa": "/ˈkrɪmɪnəl ˈproʊfaɪl/",
+              "pos": "n.",
+              "meaning": "犯罪档案（类似荣誉系统）",
+              "ex_en": "Your criminal profile changes with your actions.",
+              "ex_zh": "你的犯罪档案会随你的行为改变。"
+            }
           ]
         },
         {
@@ -355,20 +2220,118 @@
           "en": "Online & Editions",
           "kind": "words",
           "words": [
-            {"word":"Standard Edition","ipa":"/ˈstændərd ɪˈdɪʃən/","pos":"n.","meaning":"普通版","ex_en":"The Standard Edition includes the base game.","ex_zh":"普通版包含游戏本体。"},
-            {"word":"Ultimate Edition","ipa":"/ˈʌltɪmət ɪˈdɪʃən/","pos":"n.","meaning":"终极版","ex_en":"The Ultimate Edition comes with bonus content.","ex_zh":"终极版附带奖励内容。"},
-            {"word":"pre-order","ipa":"/ˌpriː ˈɔːrdər/","pos":"v.","meaning":"预购","ex_en":"Pre-order to unlock the bonus pack.","ex_zh":"预购就能解锁奖励包。"},
-            {"word":"pre-load","ipa":"/ˌpriː ˈloʊd/","pos":"v.","meaning":"预载","ex_en":"Pre-load starts on November 10.","ex_zh":"预载从 11 月 10 日开始。"},
-            {"word":"release date","ipa":"/rɪˈliːs deɪt/","pos":"n.","meaning":"发售日期","ex_en":"The release date is November 19.","ex_zh":"发售日期是 11 月 19 日。"},
-            {"word":"GTA+","ipa":"/ˌdʒiː tiː eɪ ˈplʌs/","pos":"n.","meaning":"GTA 会员订阅服务","ex_en":"GTA+ gives monthly rewards and cash.","ex_zh":"GTA+ 会员每月送奖励和现金。"},
-            {"word":"DLC","ipa":"/ˌdiː el ˈsiː/","pos":"n.","meaning":"后续追加内容","ex_en":"The story DLC adds new missions.","ex_zh":"剧情 DLC 会加入新任务。"},
-            {"word":"expansion","ipa":"/ɪkˈspænʃən/","pos":"n.","meaning":"扩展包","ex_en":"The expansion opens up a new area.","ex_zh":"这个扩展包会开放一片新区域。"},
-            {"word":"patch","ipa":"/pætʃ/","pos":"n.","meaning":"补丁","ex_en":"The new patch fixes the bugs.","ex_zh":"新补丁修复了 bug。"},
-            {"word":"update","ipa":"/ˌʌpˈdeɪt/","pos":"n.","meaning":"更新","ex_en":"Download the update before playing.","ex_zh":"玩之前先下载更新。"},
-            {"word":"save","ipa":"/seɪv/","pos":"v.","meaning":"存档","ex_en":"The game auto-saves after each mission.","ex_zh":"每个任务结束后游戏会自动存档。"},
-            {"word":"load","ipa":"/loʊd/","pos":"v.","meaning":"读档","ex_en":"Load your last save if you die.","ex_zh":"死了就读取最近的存档。"},
-            {"word":"spawn","ipa":"/spɔːn/","pos":"v.","meaning":"重生、刷新","ex_en":"You'll respawn at the nearest hospital.","ex_zh":"你会重生成在最近的医院。"},
-            {"word":"NPC","ipa":"/ˌen piː ˈsiː/","pos":"n.","meaning":"非玩家角色","ex_en":"Talk to the NPC to start the side mission.","ex_zh":"和这个 NPC 对话开启支线任务。"}
+            {
+              "word": "Standard Edition",
+              "ipa": "/ˈstændərd ɪˈdɪʃən/",
+              "pos": "n.",
+              "meaning": "普通版",
+              "ex_en": "The Standard Edition includes the base game.",
+              "ex_zh": "普通版包含游戏本体。"
+            },
+            {
+              "word": "Ultimate Edition",
+              "ipa": "/ˈʌltɪmət ɪˈdɪʃən/",
+              "pos": "n.",
+              "meaning": "终极版",
+              "ex_en": "The Ultimate Edition comes with bonus content.",
+              "ex_zh": "终极版附带奖励内容。"
+            },
+            {
+              "word": "pre-order",
+              "ipa": "/ˌpriː ˈɔːrdər/",
+              "pos": "v.",
+              "meaning": "预购",
+              "ex_en": "Pre-order to unlock the bonus pack.",
+              "ex_zh": "预购就能解锁奖励包。"
+            },
+            {
+              "word": "pre-load",
+              "ipa": "/ˌpriː ˈloʊd/",
+              "pos": "v.",
+              "meaning": "预载",
+              "ex_en": "Pre-load starts on November 10.",
+              "ex_zh": "预载从 11 月 10 日开始。"
+            },
+            {
+              "word": "release date",
+              "ipa": "/rɪˈliːs deɪt/",
+              "pos": "n.",
+              "meaning": "发售日期",
+              "ex_en": "The release date is November 19.",
+              "ex_zh": "发售日期是 11 月 19 日。"
+            },
+            {
+              "word": "GTA+",
+              "ipa": "/ˌdʒiː tiː eɪ ˈplʌs/",
+              "pos": "n.",
+              "meaning": "GTA 会员订阅服务",
+              "ex_en": "GTA+ gives monthly rewards and cash.",
+              "ex_zh": "GTA+ 会员每月送奖励和现金。"
+            },
+            {
+              "word": "DLC",
+              "ipa": "/ˌdiː el ˈsiː/",
+              "pos": "n.",
+              "meaning": "后续追加内容",
+              "ex_en": "The story DLC adds new missions.",
+              "ex_zh": "剧情 DLC 会加入新任务。"
+            },
+            {
+              "word": "expansion",
+              "ipa": "/ɪkˈspænʃən/",
+              "pos": "n.",
+              "meaning": "扩展包",
+              "ex_en": "The expansion opens up a new area.",
+              "ex_zh": "这个扩展包会开放一片新区域。"
+            },
+            {
+              "word": "patch",
+              "ipa": "/pætʃ/",
+              "pos": "n.",
+              "meaning": "补丁",
+              "ex_en": "The new patch fixes the bugs.",
+              "ex_zh": "新补丁修复了 bug。"
+            },
+            {
+              "word": "update",
+              "ipa": "/ˌʌpˈdeɪt/",
+              "pos": "n.",
+              "meaning": "更新",
+              "ex_en": "Download the update before playing.",
+              "ex_zh": "玩之前先下载更新。"
+            },
+            {
+              "word": "save",
+              "ipa": "/seɪv/",
+              "pos": "v.",
+              "meaning": "存档",
+              "ex_en": "The game auto-saves after each mission.",
+              "ex_zh": "每个任务结束后游戏会自动存档。"
+            },
+            {
+              "word": "load",
+              "ipa": "/loʊd/",
+              "pos": "v.",
+              "meaning": "读档",
+              "ex_en": "Load your last save if you die.",
+              "ex_zh": "死了就读取最近的存档。"
+            },
+            {
+              "word": "spawn",
+              "ipa": "/spɔːn/",
+              "pos": "v.",
+              "meaning": "重生、刷新",
+              "ex_en": "You'll respawn at the nearest hospital.",
+              "ex_zh": "你会重生成在最近的医院。"
+            },
+            {
+              "word": "NPC",
+              "ipa": "/ˌen piː ˈsiː/",
+              "pos": "n.",
+              "meaning": "非玩家角色",
+              "ex_en": "Talk to the NPC to start the side mission.",
+              "ex_zh": "和这个 NPC 对话开启支线任务。"
+            }
           ]
         }
       ]
@@ -381,16 +2344,61 @@
           "title": "一、人物",
           "en": "Characters",
           "kind": "table",
-          "headers": ["英文", "音标", "中文", "备注"],
+          "headers": [
+            "英文",
+            "音标",
+            "中文",
+            "备注"
+          ],
           "rows": [
-            ["Jason Duval", "/ˈdʒeɪsən duːˈvɑːl/", "杰森·杜瓦尔", "男主，前军人，为毒贩打工"],
-            ["Lucia Caminos", "/luˈsiːə kəˈmiːnoʊs/", "露西亚·卡米诺斯", "女主，假释出狱，系列首个主线可操控女性"],
-            ["Brian Heder", "/ˈbraɪən ˈhiːdər/", "布莱恩·赫德", "毒贩/船坞主，Jason 的老板"],
-            ["Cal Hampton", "/kæl ˈhæmptən/", "卡尔·汉普顿", "Jason 的朋友"],
-            ["Boobie Ike", "/ˈbuːbi aɪk/", "布比·艾克", "生意人，Vice City 传奇"],
-            ["Dre'Quan Priest", "/dreɪˈkwɑːn priːst/", "德里奎安·普里斯特", "唱片厂牌老板、hustler"],
-            ["Real Dimez", "/riːl ˈdaɪmz/", "里尔·戴姆斯", "说唱二人组（Bae-Luxe + Roxy）"],
-            ["Raul Bautista", "/rɑːˈuːl baʊˈtiːstə/", "劳尔·鲍蒂斯塔", "银行劫匪"]
+            [
+              "Jason Duval",
+              "/ˈdʒeɪsən duːˈvɑːl/",
+              "杰森·杜瓦尔",
+              "男主，前军人，为毒贩打工"
+            ],
+            [
+              "Lucia Caminos",
+              "/luˈsiːə kəˈmiːnoʊs/",
+              "露西亚·卡米诺斯",
+              "女主，假释出狱，系列首个主线可操控女性"
+            ],
+            [
+              "Brian Heder",
+              "/ˈbraɪən ˈhiːdər/",
+              "布莱恩·赫德",
+              "毒贩/船坞主，Jason 的老板"
+            ],
+            [
+              "Cal Hampton",
+              "/kæl ˈhæmptən/",
+              "卡尔·汉普顿",
+              "Jason 的朋友"
+            ],
+            [
+              "Boobie Ike",
+              "/ˈbuːbi aɪk/",
+              "布比·艾克",
+              "生意人，Vice City 传奇"
+            ],
+            [
+              "Dre'Quan Priest",
+              "/dreɪˈkwɑːn priːst/",
+              "德里奎安·普里斯特",
+              "唱片厂牌老板、hustler"
+            ],
+            [
+              "Real Dimez",
+              "/riːl ˈdaɪmz/",
+              "里尔·戴姆斯",
+              "说唱二人组（Bae-Luxe + Roxy）"
+            ],
+            [
+              "Raul Bautista",
+              "/rɑːˈuːl baʊˈtiːstə/",
+              "劳尔·鲍蒂斯塔",
+              "银行劫匪"
+            ]
           ]
         },
         {
@@ -398,22 +2406,97 @@
           "title": "二、地点与地理",
           "en": "Locations",
           "kind": "table",
-          "headers": ["英文", "音标", "中文", "原型"],
+          "headers": [
+            "英文",
+            "音标",
+            "中文",
+            "原型"
+          ],
           "rows": [
-            ["Leonida", "/liˈɑːnɪdə/", "雷奥奈达州", "佛罗里达州"],
-            ["Vice City", "/vaɪs ˈsɪti/", "罪恶城", "迈阿密"],
-            ["Leonida Keys", "/liˈɑːnɪdə kiːz/", "雷奥奈达群岛", "佛罗里达礁岛群"],
-            ["Grassrivers", "/ˈɡræsˌrɪvərz/", "格拉斯里弗斯", "大沼泽地（Everglades）"],
-            ["Port Gellhorn", "/pɔːrt ˈɡelhɔːrn/", "盖尔霍恩港", "港口城镇"],
-            ["Mount Kalaga National Park", "/maʊnt kəˈlɑːɡə/", "卡拉加山国家公园", "州立公园"],
-            ["Ambrosia", "/æmˈbroʊʒə/", "安布罗西亚", "城镇"],
-            ["Lake Leonida", "/leɪk liˈɑːnɪdə/", "雷奥奈达湖", "大湖"],
-            ["Leonida Penitentiary", "/ˌpenɪˈtenʃəri/", "雷奥奈达监狱", "Lucia 服刑地"],
-            ["Ocean Beach", "/ˈoʊʃən biːtʃ/", "大洋海滩", "海滩"],
-            ["Washington Beach", "/ˈwɑːʃɪŋtən biːtʃ/", "华盛顿海滩", "海滩"],
-            ["Watson Bay", "/ˈwɑːtsən beɪ/", "沃森湾", "海湾"],
-            ["Gambit Bay", "/ˈɡæmbɪt beɪ/", "甘比特湾", "海湾"],
-            ["Liberty City", "/ˈlɪbərti ˈsɪti/", "自由城", "Lucia 家族旧地（前作城市）"]
+            [
+              "Leonida",
+              "/liˈɑːnɪdə/",
+              "雷奥奈达州",
+              "佛罗里达州"
+            ],
+            [
+              "Vice City",
+              "/vaɪs ˈsɪti/",
+              "罪恶城",
+              "迈阿密"
+            ],
+            [
+              "Leonida Keys",
+              "/liˈɑːnɪdə kiːz/",
+              "雷奥奈达群岛",
+              "佛罗里达礁岛群"
+            ],
+            [
+              "Grassrivers",
+              "/ˈɡræsˌrɪvərz/",
+              "格拉斯里弗斯",
+              "大沼泽地（Everglades）"
+            ],
+            [
+              "Port Gellhorn",
+              "/pɔːrt ˈɡelhɔːrn/",
+              "盖尔霍恩港",
+              "港口城镇"
+            ],
+            [
+              "Mount Kalaga National Park",
+              "/maʊnt kəˈlɑːɡə/",
+              "卡拉加山国家公园",
+              "州立公园"
+            ],
+            [
+              "Ambrosia",
+              "/æmˈbroʊʒə/",
+              "安布罗西亚",
+              "城镇"
+            ],
+            [
+              "Lake Leonida",
+              "/leɪk liˈɑːnɪdə/",
+              "雷奥奈达湖",
+              "大湖"
+            ],
+            [
+              "Leonida Penitentiary",
+              "/ˌpenɪˈtenʃəri/",
+              "雷奥奈达监狱",
+              "Lucia 服刑地"
+            ],
+            [
+              "Ocean Beach",
+              "/ˈoʊʃən biːtʃ/",
+              "大洋海滩",
+              "海滩"
+            ],
+            [
+              "Washington Beach",
+              "/ˈwɑːʃɪŋtən biːtʃ/",
+              "华盛顿海滩",
+              "海滩"
+            ],
+            [
+              "Watson Bay",
+              "/ˈwɑːtsən beɪ/",
+              "沃森湾",
+              "海湾"
+            ],
+            [
+              "Gambit Bay",
+              "/ˈɡæmbɪt beɪ/",
+              "甘比特湾",
+              "海湾"
+            ],
+            [
+              "Liberty City",
+              "/ˈlɪbərti ˈsɪti/",
+              "自由城",
+              "Lucia 家族旧地（前作城市）"
+            ]
           ]
         },
         {
@@ -421,16 +2504,61 @@
           "title": "三、商店与场所",
           "en": "Shops & Places",
           "kind": "table",
-          "headers": ["英文", "音标", "中文", "用途"],
+          "headers": [
+            "英文",
+            "音标",
+            "中文",
+            "用途"
+          ],
           "rows": [
-            ["Ammu-Nation", "/ˌæmjuː ˈneɪʃən/", "军火店", "买武器弹药"],
-            ["Rideout Customs", "/ˈraɪdaʊt ˈkʌstəmz/", "百轮炸街改装", "改装车辆"],
-            ["Shore Court Garage", "/ʃɔːr kɔːrt/", "滨海小巷车库", "车库"],
-            ["Paradise Garage", "/ˈpærədaɪs ɡəˈrɑːʒ/", "天堂车库", "车库"],
-            ["One-Eyed Willie's", "/wʌn aɪd ˈwɪliz/", "独眼威利", "酒吧/场所"],
-            ["Mud Club", "/mʌd klʌb/", "泥地俱乐部", "夜店"],
-            ["Only Raw Records", "/oʊnli rɔː/", "（唱片厂牌）", "音乐厂牌"],
-            ["Fleeca", "/ˈfliːkə/", "弗利卡（银行）", "系列知名劫案对象"]
+            [
+              "Ammu-Nation",
+              "/ˌæmjuː ˈneɪʃən/",
+              "军火店",
+              "买武器弹药"
+            ],
+            [
+              "Rideout Customs",
+              "/ˈraɪdaʊt ˈkʌstəmz/",
+              "百轮炸街改装",
+              "改装车辆"
+            ],
+            [
+              "Shore Court Garage",
+              "/ʃɔːr kɔːrt/",
+              "滨海小巷车库",
+              "车库"
+            ],
+            [
+              "Paradise Garage",
+              "/ˈpærədaɪs ɡəˈrɑːʒ/",
+              "天堂车库",
+              "车库"
+            ],
+            [
+              "One-Eyed Willie's",
+              "/wʌn aɪd ˈwɪliz/",
+              "独眼威利",
+              "酒吧/场所"
+            ],
+            [
+              "Mud Club",
+              "/mʌd klʌb/",
+              "泥地俱乐部",
+              "夜店"
+            ],
+            [
+              "Only Raw Records",
+              "/oʊnli rɔː/",
+              "（唱片厂牌）",
+              "音乐厂牌"
+            ],
+            [
+              "Fleeca",
+              "/ˈfliːkə/",
+              "弗利卡（银行）",
+              "系列知名劫案对象"
+            ]
           ]
         },
         {
@@ -438,18 +2566,62 @@
           "title": "四、载具品牌",
           "en": "Vehicle Brands",
           "kind": "table",
-          "headers": ["英文", "中文", "备注"],
+          "headers": [
+            "英文",
+            "中文",
+            "备注"
+          ],
           "rows": [
-            ["Dinka", "丁卡", "日系品牌"],
-            ["Grotti", "古罗帝", "超跑（法拉利原型）"],
-            ["Shitzu", "诗津", "摩托车"],
-            ["Vapid", "威皮", "美系车（福特原型）"],
-            ["Pfister", "（暂无官方译名）", "保时捷原型"],
-            ["Pegassi", "（暂无官方译名）", "兰博基尼原型"],
-            ["Maibatsu", "（暂无官方译名）", "日系"],
-            ["Bravado", "（暂无官方译名）", "道奇原型"],
-            ["Declasse", "（暂无官方译名）", "雪佛兰原型"],
-            ["Invetero", "（暂无官方译名）", "雪佛兰跑车"]
+            [
+              "Dinka",
+              "丁卡",
+              "日系品牌"
+            ],
+            [
+              "Grotti",
+              "古罗帝",
+              "超跑（法拉利原型）"
+            ],
+            [
+              "Shitzu",
+              "诗津",
+              "摩托车"
+            ],
+            [
+              "Vapid",
+              "威皮",
+              "美系车（福特原型）"
+            ],
+            [
+              "Pfister",
+              "（暂无官方译名）",
+              "保时捷原型"
+            ],
+            [
+              "Pegassi",
+              "（暂无官方译名）",
+              "兰博基尼原型"
+            ],
+            [
+              "Maibatsu",
+              "（暂无官方译名）",
+              "日系"
+            ],
+            [
+              "Bravado",
+              "（暂无官方译名）",
+              "道奇原型"
+            ],
+            [
+              "Declasse",
+              "（暂无官方译名）",
+              "雪佛兰原型"
+            ],
+            [
+              "Invetero",
+              "（暂无官方译名）",
+              "雪佛兰跑车"
+            ]
           ],
           "note": "**重点车辆**：Vapid Creado（Jason 的浅蓝轿跑）、Maibatsu Sanchez（越野摩托）、Pegassi Infernus Classic（经典超跑）。"
         }
@@ -463,13 +2635,31 @@
           "title": "发售信息",
           "en": "",
           "kind": "table",
-          "headers": ["项目", "内容"],
+          "headers": [
+            "项目",
+            "内容"
+          ],
           "rows": [
-            ["发售日期", "2026 年 11 月 19 日"],
-            ["预载开始", "2026 年 11 月 10 日"],
-            ["首发平台", "PS5 / PS5 Pro / Xbox Series X|S（PC 版时间未公布）"],
-            ["安装体积", "最高约 212GB"],
-            ["中文支持", "支持官方中文"]
+            [
+              "发售日期",
+              "2026 年 11 月 19 日"
+            ],
+            [
+              "预载开始",
+              "2026 年 11 月 10 日"
+            ],
+            [
+              "首发平台",
+              "PS5 / PS5 Pro / Xbox Series X|S（PC 版时间未公布）"
+            ],
+            [
+              "安装体积",
+              "最高约 212GB"
+            ],
+            [
+              "中文支持",
+              "支持官方中文"
+            ]
           ]
         },
         {
