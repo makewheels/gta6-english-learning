@@ -99,20 +99,27 @@ def render_html() -> str:
             kind = sec.get("kind", "words")
             inner = ""
             if kind == "words":
-                cards = []
+                # 核心词汇：表格形式（单词列字体加大，英文例句用黑色）
+                trs = []
                 for w in sec["words"]:
                     spk = (f'<button class="spk" data-w="{esc(w["word"])}" title="点击发音" '
                            f'aria-label="点击发音 {esc(w["word"])}">🔊</button>')
-                    cards.append(
-                        f'<div class="word"><div class="head">{spk}'
-                        f'<span class="wt">{esc(w["word"])}</span> '
-                        f'<span class="ipa">{esc(w["ipa"])}</span> '
-                        f'<span class="pos">{esc(w["pos"])}</span> '
-                        f'<span class="zh">{esc(w["meaning"])}</span></div>'
-                        f'<div class="ex"><span class="en">{esc(w["ex_en"])}</span><br>'
-                        f'<span class="zh2">{esc(w["ex_zh"])}</span></div></div>'
+                    trs.append(
+                        f'<tr><td class="c-word">{spk}'
+                        f'<span class="wt">{esc(w["word"])}</span></td>'
+                        f'<td class="c-ipa">{esc(w["ipa"])}</td>'
+                        f'<td class="c-pos">{esc(w["pos"])}</td>'
+                        f'<td class="c-zh">{esc(w["meaning"])}</td>'
+                        f'<td class="c-en">{esc(w["ex_en"])}</td>'
+                        f'<td class="c-zh2">{esc(w["ex_zh"])}</td></tr>'
                     )
-                inner = "\n".join(cards)
+                inner = (
+                    '<div class="table-wrap"><table class="vocab">'
+                    '<thead><tr><th class="c-word">单词</th><th class="c-ipa">音标</th>'
+                    '<th class="c-pos">词性</th><th class="c-zh">释义</th>'
+                    '<th class="c-en">英文例句</th><th class="c-zh2">中文翻译</th></tr></thead>'
+                    f'<tbody>{"".join(trs)}</tbody></table></div>'
+                )
             elif kind == "table":
                 ths = "".join(f"<th>{esc(h)}</th>" for h in sec["headers"])
                 trs = []
@@ -128,8 +135,8 @@ def render_html() -> str:
                         else:
                             tds.append(f"<td>{esc(cell)}</td>")
                     trs.append("<tr>" + "".join(tds) + "</tr>")
-                inner = (f'<table><thead><tr>{ths}</tr></thead>'
-                         f'<tbody>{"".join(trs)}</tbody></table>')
+                inner = (f'<div class="table-wrap"><table><thead><tr>{ths}</tr></thead>'
+                         f'<tbody>{"".join(trs)}</tbody></table></div>')
                 if sec.get("note"):
                     inner += f'<p class="note">{md_inline(sec["note"])}</p>'
             elif kind == "bullets":
@@ -142,10 +149,10 @@ def render_html() -> str:
             f'{"".join(secs_html)}</section>'
         )
 
+    # 左侧目录只保留小节标题（不再显示所属部分的小字标签）
     toc_html = "".join(
-        f'<a href="#{sid}" class="toc-link"><span class="toc-part">{esc(part_label)}</span>'
-        f'<span class="toc-label">{esc(label)}</span></a>'
-        for sid, label, part_label in toc_items
+        f'<a href="#{sid}" class="toc-link">{esc(label)}</a>'
+        for sid, label, _part_label in toc_items
     )
 
     notes_html = "".join(f"<li>{md_inline(n)}</li>" for n in data["notes"])
@@ -175,10 +182,8 @@ def render_html() -> str:
   }}
   #toc.open {{ transform:translateX(0); }}
   #toc .toc-title {{ font-weight:700; font-size:17px; margin-bottom:10px; color:var(--accent); }}
-  #toc a {{ display:block; text-decoration:none; color:var(--ink); padding:5px 8px; border-radius:6px; font-size:14px; }}
+  #toc a {{ display:block; text-decoration:none; color:var(--ink); padding:6px 8px; border-radius:6px; font-size:14.5px; font-weight:500; line-height:1.35; }}
   #toc a:hover {{ background:#efe7db; }}
-  #toc .toc-part {{ display:block; font-size:11.5px; color:var(--muted); }}
-  #toc .toc-label {{ font-weight:500; }}
   #toc-toggle {{
     position:fixed; top:12px; left:12px; z-index:50; border:1px solid var(--line);
     background:var(--bg); border-radius:8px; padding:7px 12px; cursor:pointer; font-size:14px; box-shadow:0 1px 4px rgba(0,0,0,.08);
@@ -193,37 +198,52 @@ def render_html() -> str:
   .part-title {{ font-size:21px; margin:38px 0 6px; padding-bottom:8px; border-bottom:3px solid var(--accent); }}
   .sec h2 {{ font-size:17px; margin:24px 0 10px; color:var(--accent); }}
   .sec h2 .en {{ font-weight:400; color:var(--muted); font-size:.85em; }}
-  /* 单词卡片 */
-  .word {{ padding:9px 0; border-bottom:1px dashed var(--line); }}
-  .word:last-child {{ border-bottom:none; }}
-  .word .head {{ font-size:16px; }}
-  .word .wt {{ font-weight:700; font-size:1.08em; }}
-  .word .ipa {{ color:var(--muted); font-size:.92em; margin:0 4px; }}
-  .word .pos {{ color:var(--accent); font-size:.82em; margin-right:4px; }}
-  .word .ex {{ margin:4px 0 0 6px; padding:4px 0 4px 12px; border-left:3px solid var(--accent); }}
-  .word .ex .en {{ color:#333; }}
-  .word .ex .zh2 {{ color:var(--muted); font-size:.9em; }}
-  .note {{ font-size:14px; color:#444; }}
-  /* 发音按钮 */
-  .spk {{ background:none; border:none; cursor:pointer; font-size:15px; padding:0 3px; vertical-align:middle; }}
-  .spk:hover {{ transform:scale(1.15); }}
-  /* 表格 */
+  /* 核心词汇表格 */
+  .table-wrap {{ overflow-x:auto; -webkit-overflow-scrolling:touch; }}
   table {{ border-collapse:collapse; width:100%; margin:10px 0; font-size:14.5px; }}
   th,td {{ border:1px solid var(--line); padding:7px 9px; text-align:left; vertical-align:top; }}
   th {{ background:var(--bg-soft); font-weight:600; white-space:nowrap; }}
+  table.vocab {{ table-layout:fixed; min-width:800px; font-size:16px; }}
+  table.vocab th, table.vocab td {{ padding:9px 10px; }}
+  table.vocab th {{ font-size:13.5px; color:var(--muted); white-space:normal; }}
+  table.vocab th.c-word {{ width:17%; }}
+  table.vocab th.c-ipa  {{ width:14%; }}
+  table.vocab th.c-pos  {{ width:5%; }}
+  table.vocab th.c-zh   {{ width:13%; }}
+  table.vocab th.c-en   {{ width:30%; }}
+  table.vocab th.c-zh2  {{ width:21%; }}
+  table.vocab tbody tr:nth-child(even) {{ background:#fdfbf7; }}
+  table.vocab tbody tr:hover {{ background:#f7efe3; }}
+  /* 单词列放大 */
+  table.vocab .wt {{ font-size:20px; font-weight:700; line-height:1.35; }}
+  table.vocab .c-word {{ white-space:normal; }}
+  table.vocab .c-ipa {{ color:#666; font-size:14px; padding-left:6px; padding-right:6px; }}
+  table.vocab .c-pos {{ color:var(--accent); font-size:14px; }}
+  table.vocab .c-zh {{ color:var(--ink); }}
+  /* 英文例句：黑色（不要灰色） */
+  table.vocab .c-en {{ color:#000; font-size:16.5px; line-height:1.55; }}
+  table.vocab .c-zh2 {{ color:#5c5c5c; font-size:14.5px; line-height:1.55; }}
+  /* 发音按钮 */
+  .spk {{ background:none; border:none; cursor:pointer; font-size:15px; padding:0 3px; vertical-align:middle; }}
+  .spk:hover {{ transform:scale(1.15); }}
+  .note {{ font-size:14px; color:#444; }}
   footer {{ margin-top:36px; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:14px; }}
   /* 桌面：侧栏展开 */
   @media (min-width: 900px) {{
     #toc {{ transform:translateX(0); }}
     #toc-toggle {{ display:none; }}
-    main {{ margin-left:250px; max-width:820px; padding:34px 40px 80px; }}
+    main {{ margin-left:250px; max-width:1220px; padding:34px 40px 80px; }}
   }}
   /* 打印 */
   @page {{ size:A4; margin:16mm 14mm; }}
   @media print {{
     #toc, #toc-toggle {{ display:none !important; }}
     main {{ margin:0; max-width:none; padding:0; font-size:12pt; }}
-    .word, .sec, table, tr {{ page-break-inside:avoid; }}
+    .sec, tr {{ page-break-inside:avoid; }}
+    table.vocab {{ min-width:0; font-size:9.5pt; }}
+    table.vocab th, table.vocab td {{ padding:3px 5px; }}
+    table.vocab thead {{ display:table-header-group; }}
+    table.vocab .wt {{ font-size:11pt; }}
     .part-title {{ page-break-after:avoid; }}
     .spk {{ display:none; }}  /* 打印不显示发音按钮 */
   }}
