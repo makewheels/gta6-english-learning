@@ -123,7 +123,7 @@ CSS_TEXT = """<style>
   .part-title { font-size:21px; margin:38px 0 6px; padding-bottom:8px; border-bottom:3px solid var(--accent); }
   .sec h2 { font-size:17px; margin:24px 0 10px; color:var(--accent); }
   .sec h2 .en { font-weight:400; color:var(--muted); font-size:.85em; }
-  /* 核心词汇表格：单词 | 音标(带发音) | 英文例句 | 中文翻译 | 词性 | 释义 | 标记 */
+  /* 核心词汇表格：英文例句 | 中文翻译 | 单词 | 音标(带发音) | 词性 | 释义 | 标记 */
   .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
   table { border-collapse:collapse; width:100%; margin:10px 0; font-size:14.5px; }
   th,td { border:1px solid var(--line); padding:7px 9px; text-align:left; vertical-align:top; }
@@ -131,12 +131,12 @@ CSS_TEXT = """<style>
   table.vocab { table-layout:fixed; min-width:900px; font-size:16px; }
   table.vocab th, table.vocab td { padding:9px 10px; }
   table.vocab th { font-size:13.5px; color:var(--muted); white-space:normal; }
-  table.vocab th.c-word { width:14%; }
-  table.vocab th.c-ipa  { width:13%; }
   table.vocab th.c-en   { width:28%; }
   table.vocab th.c-zh2  { width:17%; }
+  table.vocab th.c-word { width:15%; }
+  table.vocab th.c-ipa  { width:13%; }
   table.vocab th.c-pos  { width:5%; }
-  table.vocab th.c-zh   { width:18%; }
+  table.vocab th.c-zh   { width:17%; }
   table.vocab th.c-mark { width:5%; text-align:center; }
   table.vocab tbody tr:nth-child(even) { background:#fdfbf7; }
   table.vocab tbody tr:hover { background:#f7efe3; }
@@ -372,10 +372,10 @@ def render_html() -> str:
                            f'aria-label="点击发音 {attr(w["word"])}">🔊</button>')
                     trs.append(
                         f'<tr data-w="{attr(w["word"])}">'
-                        f'<td class="c-word"><span class="wt">{esc(w["word"])}</span></td>'
-                        f'<td class="c-ipa">{spk}<span class="ipa-text">{esc(w["ipa"])}</span></td>'
                         f'<td class="c-en">{esc(w["ex_en"])}</td>'
                         f'<td class="c-zh2">{esc(w["ex_zh"])}</td>'
+                        f'<td class="c-word"><span class="wt">{esc(w["word"])}</span></td>'
+                        f'<td class="c-ipa">{spk}<span class="ipa-text">{esc(w["ipa"])}</span></td>'
                         f'<td class="c-pos">{esc(w["pos"])}</td>'
                         f'<td class="c-zh">{esc(w["meaning"])}</td>'
                         f'<td class="c-mark"><button class="mark" data-w="{attr(w["word"])}" '
@@ -384,8 +384,8 @@ def render_html() -> str:
                     )
                 inner = (
                     '<div class="table-wrap"><table class="vocab">'
-                    '<thead><tr><th class="c-word">单词</th><th class="c-ipa">音标 / 发音</th>'
-                    '<th class="c-en">英文例句</th><th class="c-zh2">中文翻译</th>'
+                    '<thead><tr><th class="c-en">英文例句</th><th class="c-zh2">中文翻译</th>'
+                    '<th class="c-word">单词</th><th class="c-ipa">音标 / 发音</th>'
                     '<th class="c-pos">词性</th><th class="c-zh">释义</th>'
                     '<th class="c-mark">标记</th></tr></thead>'
                     f'<tbody>{"".join(trs)}</tbody></table></div>'
