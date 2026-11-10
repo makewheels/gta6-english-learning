@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从 vocab.json 生成 index.html（网页版）和 README.md（GitHub 版）。
+"""从 vocab.json 生成 index.html（网页版），README.md 仅保留 Pages 链接。
 用法：改 vocab.json 后运行 `python3 generate.py`，两个文件一起更新。"""
 import html
 import json
@@ -31,59 +31,7 @@ def md_inline(s: str) -> str:
 # ---------------- 生成 README.md ----------------
 
 def render_readme() -> str:
-    out = []
-    out.append(f"# {data['title']}")
-    out.append("")
-    out.append(f"> {data['subtitle']}")
-    out.append("")
-    out.append("---")
-    out.append("")
-    out.append("## 使用说明")
-    out.append("")
-    for n in data["notes"]:
-        out.append(f"- {n}")
-    out.append("")
-    out.append("---")
-    out.append("")
-
-    for pi, part in enumerate(data["parts"]):
-        out.append(f"# {part['title']}")
-        out.append("")
-        part_short = re.sub(r"^第[一二三四五六七八九十]+部分\s*[·•]\s*", "", part["title"])
-        for sec in part["sections"]:
-            # 若 section 标题与 part 短标题相同，则不重复输出 heading
-            if sec["title"] != part_short:
-                head = sec["title"] + (f"（{sec['en']}）" if sec.get("en") else "")
-                out.append(f"## {head}")
-                out.append("")
-            kind = sec.get("kind", "words")
-            if kind == "words":
-                for n, w in enumerate(sec["words"], 1):
-                    out.append(f"**{n}. {w['word']}** {w['ipa']}（{w['pos']}）{w['meaning']}")
-                    out.append(f"> {w['ex_en']}")
-                    out.append(f"> {w['ex_zh']}")
-                    out.append("")
-            elif kind == "table":
-                hdr = "| " + " | ".join(sec["headers"]) + " |"
-                sep = "|" + "|".join(["---"] * len(sec["headers"])) + "|"
-                out.append(hdr)
-                out.append(sep)
-                for row in sec["rows"]:
-                    out.append("| " + " | ".join(row) + " |")
-                out.append("")
-                if sec.get("note"):
-                    out.append(sec["note"])
-                    out.append("")
-            elif kind == "bullets":
-                for it in sec["items"]:
-                    out.append(f"- {it}")
-                out.append("")
-            out.append("---")
-            out.append("")
-
-    out.append(f"*{data['footer']}*")
-    out.append("")
-    return "\n".join(out)
+    return "https://makewheels.github.io/gta6-english-learning/\n"
 
 
 # ---------------- 生成 index.html ----------------
