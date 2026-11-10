@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从 vocab.json 生成 index.html（网页版），README.md 仅保留 Pages 链接。
+"""从 vocab.json 生成 index.html（网页版）和 README.md（项目说明与 Pages 入口）。
 用法：改 vocab.json 后运行 `python3 generate.py`，两个文件一起更新。"""
 import html
 import json
@@ -31,7 +31,24 @@ def md_inline(s: str) -> str:
 # ---------------- 生成 README.md ----------------
 
 def render_readme() -> str:
-    return "https://makewheels.github.io/gta6-english-learning/\n"
+    return f"""# {data['title']}
+
+给想用英文玩 GTA6 的中文玩家准备的游戏英语学习资料，按游戏场景整理词汇、界面提示和专有名词，提供中英释义、美式音标及双语例句。
+
+**在线学习：** https://makewheels.github.io/gta6-english-learning/
+
+## 使用说明
+
+- 按目录选择界面、操作、任务、战斗、载具等主题；建议先学 HUD、操作按键和任务目标。
+- 点击音标旁的发音按钮听美式发音（需联网），点击 ☆ 将单词加入生词篮，支持定位与复制清单。
+- 生词收藏保存在当前浏览器本地；支持手机、电脑阅读，以及浏览器 A4 打印。
+
+例句为自编教学内容，不是官方游戏台词；专有名词音标为参考。
+
+## 内容维护
+
+词汇数据在 `vocab.json`。修改后在仓库目录运行 `python generate.py`，同步生成 `index.html` 和本 README；完整教材只放在网页中。
+"""
 
 
 # ---------------- 生成 index.html ----------------
